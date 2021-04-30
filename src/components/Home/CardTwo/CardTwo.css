@@ -1,0 +1,228 @@
+.cardTwo {
+    height: 100vh;
+    position: relative;
+    background-color: darkkhaki;
+    overflow: hidden;
+}
+
+.cardTwoDiv {
+    position: absolute;
+    z-index: 9;
+    left: 7%;
+    bottom: 15%;
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardTwoDiv > h1 {
+    color: whitesmoke;
+    margin: 2rem 4rem 2rem;
+    font-size: 2.3rem;
+}
+
+
+.cardTwoDiv > p {
+    color: whitesmoke;
+    margin: 1rem 4rem 2rem 4rem;
+    font-size: 1.3rem;
+}
+
+
+.cardTwoImage {
+    position: absolute;
+    right: 20%;
+    top: 5%;
+}
+
+.cardTwoImage > img {
+    width: 600px;
+    height: 650px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+
+@media (min-width: 992px) and (max-width: 1380px) {
+    .cardTwoDiv {
+        left: 5%;
+        bottom: 18%;
+        width: 550px;
+        height: 350px;
+    }
+    
+    .cardTwoImage {
+        right: 10%;
+        top: 5%;
+    }
+
+    .cardTwoImage > img {
+        width: 580px;
+        height: 630px;
+    }   
+    
+}
+
+
+@media screen and (max-width: 992px) {
+    .cardTwoDiv {
+        left: 5%;
+        bottom: 10%;
+        width: 350px;
+        height: 350px;
+    }
+    
+    .cardTwoImage {
+        right: 5%;
+        top: 5%;
+    }
+
+    .cardTwoImage > img {
+        width: 380px;
+        height: 530px;
+    }   
+
+    .cardTwoDiv > h1 {
+        margin: 2rem;
+        font-size: 2.1rem;
+    }
+    
+    
+    .cardTwoDiv > p {
+        margin: 1rem 2rem 2rem 2rem;
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .cardTwoDiv {
+        left: 5%;
+        bottom: 2%;
+        width: 300px;
+        height: 350px;
+    }
+    .cardTwoImage {
+        right: 2%;
+        top: 5%;
+    }
+    .cardTwoImage > img {
+        width: 380px;
+        height: 450px;
+    }   
+    .cardTwoDiv > h1 {
+        margin: 1rem;
+        font-size: 2.1rem;
+    }
+    .cardTwoDiv > p {
+        margin: 1rem 1rem 1rem 1rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cardTwoDiv {
+        left: 10px;
+        bottom: 10%;
+        width: 250px;
+        height: 300px;
+    }
+    .cardTwoImage {
+        right: 2%;
+        top: 5%;
+    }
+    .cardTwoImage > img {
+        width: 280px;
+        height: 380px;
+    }   
+    .cardTwoDiv > h1 {
+        margin: 0 0.8rem 0 0.8rem;
+        font-size: 1.3rem;
+    }
+    .cardTwoDiv > p {
+        margin: 0.8rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cardTwoDiv {
+        left: 10px;
+        bottom: 10%;
+        width: 250px;
+        height: 300px;
+    }
+    .cardTwoImage {
+        right: 2%;
+        top: 5%;
+    }
+    .cardTwoImage > img {
+        width: 280px;
+        height: 380px;
+    }   
+    .cardTwoDiv > h1 {
+        margin: 0 0.8rem 0 0.8rem;
+        font-size: 1.3rem;
+    }
+    .cardTwoDiv > p {
+        margin: 0.8rem;
+        font-size: 0.8rem;
+    }
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    .cardTwoDiv {
+        left: 10px;
+        bottom: 20px;
+        width: 200px;
+        height: 230px;
+    }
+    .cardTwoImage {
+        right: 2%;
+        top: 5%;
+    }
+    .cardTwoImage > img {
+        width: 250px;
+        height: 350px;
+    }   
+    .cardTwoDiv > h1 {
+        margin: 0 0.8rem 0 0.8rem;
+        font-size: 1.3rem;
+    }
+    .cardTwoDiv > p {
+        margin: 0.8rem;
+        font-size: 0.8rem;
+    }
+
+}
+
+
+@media only screen and (device-width: 768px) {
+    .cardTwoDiv {
+        left: 5%;
+        bottom: 7%;
+        width: 450px;
+        height: 400px;
+    }
+    .cardTwoImage {
+        right: 5%;
+        top: 5%;
+    }
+    .cardTwoImage > img {
+        width: 480px;
+        height: 660px;
+    }   
+    .cardTwoDiv > h1 {
+        margin: 2rem;
+        font-size: 2.1rem;
+    }
+    .cardTwoDiv > p {
+        margin: 1rem 2rem 2rem 2rem;
+        font-size: 1.1rem;
+    }
+  }

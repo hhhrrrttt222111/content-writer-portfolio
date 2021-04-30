@@ -1,0 +1,226 @@
+.cardThree {
+    height: 100vh;
+    position: relative;
+    background-color: lawngreen;
+    overflow: hidden;
+}
+
+.cardThreeImage {
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+
+.cardThreeImage > img {
+    width: 600px;
+    height: 650px;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.cardThreeDiv {
+    z-index: 9;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    right: 7%;
+    bottom: 15%;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardThreeDiv > h1 {
+    color: whitesmoke;
+    margin: 2rem 4rem 2rem;
+    font-size: 2.3rem;
+}
+
+
+.cardThreeDiv > p {
+    color: whitesmoke;
+    margin: 1rem 4rem 2rem 4rem;
+    font-size: 1.3rem;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1380px) {
+    .cardThreeImage {
+        left: 10%;
+        top: 5%;
+    }
+    .cardThreeImage > img {
+        width: 580px;
+        height: 630px;
+    }
+    .cardThreeDiv {
+        width: 550px;
+        height: 350px;
+        right: 5%;
+        bottom: 18%;
+    }
+    
+}
+
+
+@media screen and (max-width: 992px) {
+    .cardThreeImage {
+        left: 5%;
+        top: 5%;
+    }
+    .cardThreeImage > img {
+        width: 380px;
+        height: 530px;
+    }
+    .cardThreeDiv {
+        width: 350px;
+        height: 350px;
+        right: 5%;
+        bottom: 10%;
+    }
+    .cardThreeDiv > h1 {
+        margin: 2rem;
+        font-size: 2.1rem;
+    }    
+    .cardThreeDiv > p {
+        margin: 1rem 2rem 2rem 2rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cardThreeImage {
+        left: 2%;
+        top: 5%;
+    }
+    .cardThreeImage > img {
+        width: 380px;
+        height: 450px;
+    }
+    .cardThreeDiv {
+        width: 300px;
+        height: 350px;
+        right: 5%;
+        bottom: 2%;
+    }
+    .cardThreeDiv > h1 {
+        margin: 1rem;
+        font-size: 2.1rem;
+    }    
+    .cardThreeDiv > p {
+        margin: 1rem 1rem 1rem 1rem;
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .cardThreeImage {
+        left: 2%;
+        top: 5%;
+    }
+    .cardThreeImage > img {
+        width: 280px;
+        height: 380px;
+    }
+    .cardThreeDiv {
+        width: 250px;
+        height: 300px;
+        right: 10px;
+        bottom: 10%;
+    }
+    .cardThreeDiv > h1 {
+        margin: 0 0.8rem 0 0.8rem;
+        font-size: 1.3rem;
+    }    
+    .cardThreeDiv > p {
+        margin: 0.8rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cardThreeImage {
+        left: 2%;
+        top: 5%;
+    }
+    .cardThreeImage > img {
+        width: 280px;
+        height: 380px;
+    }
+    .cardThreeDiv {
+        width: 250px;
+        height: 300px;
+        right: 10px;
+        bottom: 10%;
+    }
+    .cardThreeDiv > h1 {
+        margin: 0 0.8rem 0 0.8rem;
+        font-size: 1.3rem;
+    }    
+    .cardThreeDiv > p {
+        margin: 0.8rem;
+        font-size: 0.8rem;
+    }
+}
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    .cardThree {
+
+    }
+
+    .cardThreeImage {
+        left: 2%;
+        top: 5%;
+    }
+    .cardThreeImage > img {
+        width: 250px;
+        height: 350px;
+    }
+    .cardThreeDiv {
+        position: absolute;
+        width: 200px;
+        height: 230px;
+        right: 10px;
+        bottom: 20px;
+    }
+    .cardThreeDiv > h1 {
+        margin: 0 0.8rem 0 0.8rem;
+        font-size: 1.3rem;
+    }    
+    .cardThreeDiv > p {
+        margin: 0.8rem;
+        font-size: 0.8rem;
+    }
+
+}
+
+
+@media only screen and (device-width: 768px) {
+    .cardThreeImage {
+        left: 5%;
+        top: 5%;
+    }
+    .cardThreeImage > img {
+        width: 480px;
+        height: 660px;
+    }
+    .cardThreeDiv {
+        width: 450px;
+        height: 400px;
+        right: 5%;
+        bottom: 7%;
+    }
+    .cardThreeDiv > h1 {
+        margin: 2rem;
+        font-size: 2.1rem;
+    }    
+    .cardThreeDiv > p {
+        margin: 1rem 2rem 2rem 2rem;
+        font-size: 1.1rem;
+    }
+  }

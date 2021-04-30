@@ -1,0 +1,118 @@
+.aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.aboutContainer {
+    margin: 7rem 3rem 3rem 3rem;
+    width: 65%;
+}
+
+.aboutContainer > h1 {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.aboutContainer > h3 {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 1rem;
+}
+
+.aboutBody {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.aboutBody > p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+
+.aboutBody > img {
+    width: 400px;
+    margin-left: 2rem;
+}
+
+
+@media (min-width: 992px) and (max-width: 1380px) {
+    .aboutContainer {
+        margin: 7rem 3rem 3rem 3rem;
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .aboutContainer {
+        margin: 7rem 3rem 3rem 3rem;
+        width: 90%;
+    }
+    .aboutBody > img {
+        width: 350px;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .aboutContainer {
+        margin: 5rem 3rem 3rem 3rem;
+        width: 90%;
+    }
+    .aboutBody {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .aboutBody > img {
+        width: 300px;
+        margin-left: 0rem;
+    }
+        
+    .aboutContainer > h1 {
+        font-size: 3.2rem;
+    }
+
+    .aboutContainer > h3 {
+        font-size: 1.5rem;
+        margin-top: 0.3rem;
+    }
+    .aboutBody > p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .aboutContainer {
+        margin: 5rem 1.5rem 1.5rem 1.5rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
+}

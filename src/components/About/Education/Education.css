@@ -1,0 +1,78 @@
+.education {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+.educationContainer {
+    margin: 3rem;
+    width: 65%;
+}
+
+.educationContainer > h2 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.edu_card_container {
+    margin-top: 2rem;
+}
+
+.education > img {
+    position: absolute;
+    width: 250px;
+    right: 5%;
+    pointer-events: none;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1380px) {
+    .educationContainer {
+        margin: 3rem;
+        width: 80%;
+    }
+    .education > img {
+        position: absolute;
+        width: 230px;
+        right: 2%;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .educationContainer {
+        margin: 3rem;
+        width: 90%;
+    }
+    .education > img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .educationContainer > h2 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 400px) {
+
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
+}

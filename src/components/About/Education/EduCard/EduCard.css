@@ -1,0 +1,49 @@
+.eduCard {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    background-color: bisque;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    /* border-bottom: 1px solid gray; */
+}
+
+.eduCardIcon {
+    margin-right: 1rem;
+}
+
+.eduCardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+}
+
+.eduCardBody > span {
+    font-weight: 700;
+    font-size: 17px;
+    color: #3e64ff;
+    margin-bottom: 0.4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.eduCardBody > h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: -0.2rem;
+}
+
+.eduCardBody > h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+.eduCardBody > p {
+    font-size: 17px;
+    font-weight: 400;
+}

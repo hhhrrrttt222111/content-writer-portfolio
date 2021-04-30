@@ -1,0 +1,144 @@
+.landing {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('../../../assets/bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    position: relative;
+    user-select: none;
+}
+
+.landing_text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 50%;
+}
+
+.landing_text > h1 {
+    color: wheat;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fadeIn {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+ 
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+ 
+
+.landing > .img-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), #000000);
+}
+
+
+@media (min-width: 992px) and (max-width: 1380px) {
+    .landing_text {
+        position: absolute;
+        left: 20%;
+        width: 60%;
+    }
+    .landing_text > h1 {
+        font-size: 3.45rem;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .landing_text {
+        position: absolute;
+        left: 10%;
+        top: 70%;
+        width: 70%;
+    }
+    .landing_text > h1 {
+        font-size: 2.45rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .landing {
+        background-image: url('../../../assets/bg-mob.PNG');
+    }
+    .landing_text {
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        width: 100%;
+    }
+    .landing_text > h1 {
+        font-size: 1.95rem;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 400px) {
+    .landing_text {
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        width: 100%;
+    }
+    .landing_text > h1 {
+        font-size: 1.55rem;
+        margin: 1rem;
+    }
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    .landing_text {
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        width: 100%;
+    }
+    .landing_text > h1 {
+        font-size: 1.55rem;
+        margin: 1rem;
+    }
+
+}
+
+
+@media only screen and (device-width: 768px) {
+    .landing_text {
+        position: absolute;
+        left: 5%;
+        top: 60%;
+        width: 100%;
+    }
+    .landing_text > h1 {
+        font-size: 2.55rem;
+        margin: 1rem;
+    }
+}

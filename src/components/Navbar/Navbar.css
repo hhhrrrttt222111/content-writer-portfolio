@@ -1,0 +1,100 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-pc {
+    margin: 2rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 3rem;
+}
+
+.navbar-pc > a {
+    text-decoration: none;
+}
+
+.navbar-pc > a > p {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+    white-space: nowrap;
+    font-family: cursive;
+}
+
+
+.navbar-mob {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: none !important;
+}
+
+.drawerLinks {
+    font-size: 21px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    white-space: nowrap;
+}
+
+
+.nav-img {
+    margin-top: 1rem;
+    width: 250px;
+    pointer-events: none;
+}
+
+@media (min-width: 992px) and (max-width: 1380px) {
+    .navbar-pc > a {
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-pc {
+        display: none;
+    }
+    .navbar-mob {
+        position: fixed;
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 300px) {
+    .nav-img {
+        display: none;
+    }
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    .nav-img {
+        display: none;
+    }
+}
+
+
+@media only screen and (device-width: 768px) {
+
+}
