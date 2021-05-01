@@ -1,4 +1,4 @@
-.education {
+.skills {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,65 +6,74 @@
     position: relative;
 }
 
-.educationContainer {
+.skillsContainer {
     margin: 3rem;
     width: 65%;
 }
 
-.educationContainer > h2 {
+.skillsContainer > h2 {
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
-.edu_card_container {
+.skillsCardContainer {
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.education > img {
-    position: absolute;
-    width: 250px;
-    right: 5%;
-    pointer-events: none;
+.skillsCardOne, .skillsCardTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skillsCardThree {
+    margin: 4rem;
 }
 
 
 
 @media (min-width: 992px) and (max-width: 1380px) {
-    .educationContainer {
+    .skillsContainer {
         margin: 3rem;
         width: 80%;
-    }
-    .education > img {
-        position: absolute;
-        width: 230px;
-        right: 2%;
     }
 }
 
 
 @media screen and (max-width: 992px) {
-    .educationContainer {
+    .skillsContainer {
         margin: 3rem;
         width: 90%;
-    }
-    .education > img {
-        display: none;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .educationContainer {
+    .skillsContainer {
         margin: 2.5rem;
         width: 100%;
     }
-    .educationContainer > h2 {
+    
+    .skillsContainer > h2 {
         font-size: 2.5rem;
+    }
+    .skillsCardOne, .skillsCardTwo {
+        flex-direction: column;
+    }
+    .skillsCardThree {
+        margin: 2rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .educationContainer {
+    .skillsContainer {
+        margin: 1.5rem;
+    }
+    .skillsCardThree {
+        margin: 1rem;
     }
 }
 
@@ -74,16 +83,11 @@
   
 @media only screen and (min-device-width: 320px) and (max-device-width: 
   480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
-    .educationContainer {
-        margin: 1rem;
-        width: 100%;
+    .skillsContainer {
+        margin: 0.5rem;
     }
-    .edu_card_container {
-        margin-top: 1.5rem;
-        width: 270px;
-    }
-    .eduCardBody > p {
-        line-height: 1.35;
+    .skillsContainer > h2 {
+        font-size: 2.5rem;
     }
 }
 

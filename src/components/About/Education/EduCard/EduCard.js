@@ -9,7 +9,7 @@ function EduCard({ year, Icon, title, subtitle, desc }) {
         <Fade bottom>
             <div className="eduCard">
                 <div className="eduCardIcon">
-                    <Avatar style={{backgroundColor: 'black'}}>
+                    <Avatar style={{backgroundColor: '#990099'}}>
                         <Icon />
                     </Avatar>
                 </div>

@@ -1,0 +1,43 @@
+.skillProgress {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.skillProgress > h3 {
+    margin-bottom: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.MuiLinearProgress-barColorPrimary {
+    background-color: #bb33ff !important;
+}
+
+.MuiLinearProgress-root {
+    height: 10px !important;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%) !important;
+}
+
+.skillLinearValue {
+    font-size: 1.3rem !important;
+    font-weight: 800 !important;
+    margin-left: 1rem !important;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+

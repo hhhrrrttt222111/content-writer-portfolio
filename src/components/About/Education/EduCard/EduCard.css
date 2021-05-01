@@ -3,11 +3,10 @@
     justify-content: center;
     align-items: flex-start;
     width: 80%;
-    background-color: bisque;
+    background-color: #f7e6ff;
     padding: 1rem;
     border-radius: 5px;
     margin-bottom: 2rem;
-    /* border-bottom: 1px solid gray; */
 }
 
 .eduCardIcon {
@@ -25,7 +24,7 @@
 .eduCardBody > span {
     font-weight: 700;
     font-size: 17px;
-    color: #3e64ff;
+    color: #e600e6;
     margin-bottom: 0.4rem;
     font-family: 'Roboto', sans-serif;
 }
@@ -46,4 +45,69 @@
 .eduCardBody > p {
     font-size: 17px;
     font-weight: 400;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1380px) {
+
+}
+
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 800px) {
+    .eduCard {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+        margin-bottom: 2rem;
+    }
+    .eduCardIcon {
+        margin-right: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .eduCard {
+        padding: 0.5rem;
+    }
+    .eduCardBody > span {
+        font-weight: 700;
+        font-size: 15px;
+        margin-bottom: 0.4rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    .eduCardBody > h3 {
+        font-size: 22px;
+        margin-bottom: 0.2rem;
+        line-height: 1.2;
+    }
+    
+    .eduCardBody > h4 {
+        font-size: 18px;
+    }
+    
+    .eduCardBody > p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
 }

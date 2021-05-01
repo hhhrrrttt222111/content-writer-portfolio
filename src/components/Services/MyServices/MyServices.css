@@ -1,0 +1,28 @@
+.myServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    padding-top: 7rem;
+}
+
+.myServices > h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+.myServices > p {
+    font-size: 1.55rem;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;  
+    opacity: 0.8;
+}
+
+
+.servicesContainer {
+    margin-top: 2rem !important;
+}

@@ -1,0 +1,38 @@
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin: 1rem;
+    padding: 1.2rem 3rem;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 45%) !important;
+}
+
+
+
+.skillCard > h2 {
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sk_circle {
+
+}
+
+.skillValue {
+    font-size: 1.5rem !important;
+    font-weight: 800 !important;
+}
+
+.MuiCircularProgress-colorPrimary {
+    color: #bb33ff !important;
+}
+
+.skill_icon {
+    margin-top: 1.4rem;
+    font-size: 1.85rem;
+}
+
+

@@ -1,0 +1,48 @@
+.serviceCard {
+    margin: 2rem;
+}
+
+.serviceCard > .MuiPaper-root {
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 35%);
+}
+
+.serviceCard > .MuiPaper-root:hover {
+    background-color: #ffccff;
+    cursor: pointer;
+}
+
+.serviceCard_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceCard_content > img {
+    width: 60px;
+    margin: 1rem;
+    pointer-events: none;
+}
+
+.serviceCard_content > h3 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    word-spacing: 3px;
+}
+
+
+.serviceCard_content > p {
+    margin-top: 2.5rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 1px;
+    opacity: 0.9;
+}
+
+.serviceCard_content > .line {
+    background-color: #b300b3;
+    width: 15%;
+    margin-top: 0.8rem;
+    height: 1px;
+}

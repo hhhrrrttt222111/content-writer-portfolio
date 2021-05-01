@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Education, AboutMe } from '../../components'
+import { Education, AboutMe, Skills } from '../../components'
 import './AboutPage.css'
 
 function AboutPage() {
@@ -8,6 +8,7 @@ function AboutPage() {
         <div className="aboutPage">
             <AboutMe />
             <Education />
+            <Skills />
         </div>
     )
 }
