@@ -5,6 +5,7 @@
 .serviceCard > .MuiPaper-root {
     background-color: white;
     box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 35%);
+    transition: 0.8s;
 }
 
 .serviceCard > .MuiPaper-root:hover {

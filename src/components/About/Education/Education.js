@@ -15,25 +15,25 @@ function Education() {
                 <h2>Education</h2>
                 <div className="edu_card_container">
                     <EduCard 
-                        year="2014 - 2015" 
+                        year="2005 - 2017" 
                         Icon={GiSchoolBag} 
-                        title="Bachelor of Science in Computer Science" 
-                        subtitle="Cambridge University" 
-                        desc="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+                        title="Primary and Secondary Education" 
+                        subtitle="Sharjah Indian School, Sharjah, UAE" 
+                        desc="I spent the formative years of my childhood in this wondrous place. Much of what I have grown up to be, I owe to this remarkable institution and its teachers."
                     />
                     <EduCard 
-                        year="2014 - 2015" 
+                        year="2017 - 2019" 
                         Icon={MdSchool} 
-                        title="Bachelor of Science in Computer Science" 
-                        subtitle="Cambridge University" 
-                        desc="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+                        title="Higher Secondary Education" 
+                        subtitle="Chavara CMI Public School, Pala, Kerala" 
+                        desc="I did not realise how quickly time passed in this school because of all the chaotic preparation to crack the engineering entrance examinations. Two years spent doing nothing but chasing the dream that every engineering aspirant child has."
                     />
                     <EduCard 
-                        year="2014 - 2015" 
+                        year="2019 - Present" 
                         Icon={MdSchool}
-                        title="Bachelor of Science in Computer Science" 
-                        subtitle="Cambridge University" 
-                        desc="A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+                        title="Bachelor Degree in Computer Science" 
+                        subtitle="Model Engineering College, Thrikkakara, Ernakulam" 
+                        desc="Joined here after cracking the engineering entrance, with a lot of expectations for the future. Currently having the time of my life here, meeting people like me and finding new interests."
                     />
 
                 </div>
@@ -44,3 +44,4 @@ function Education() {
 }
 
 export default Education
+

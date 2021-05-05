@@ -6,6 +6,7 @@ export { default as Education } from './About/Education/Education'
 export { default as AboutMe } from './About/AboutMe/AboutMe'
 export { default as Skills } from './About/Skills/Skills'
 export { default as MyServices } from './Services/MyServices/MyServices'
+export { default as Testimonials } from './Services/Testimonials/Testimonials'
 
 export { default as Navbar } from './Navbar/Navbar'
 export { default as Loader } from './Misc/Loader'

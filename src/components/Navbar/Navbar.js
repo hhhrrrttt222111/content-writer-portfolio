@@ -86,10 +86,10 @@ function Navbar() {
                                 </ListItem>
                             </NavLink>
 
-                            <NavLink to="/about" className="drawerLinks" smooth={true} spy="true" duration={2000}>
+                            <NavLink to="/services" className="drawerLinks" smooth={true} spy="true" duration={2000}>
                                 <ListItem className={classes.drawerItem}>
                                     <ListItemText>
-                                        ABOUT
+                                        SERVICES
                                     </ListItemText>
                                 </ListItem>
                             </NavLink>
