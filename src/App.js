@@ -2,15 +2,13 @@ import React from 'react'
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import { Home, AboutPage, ServicesPage } from './Pages'
-import { Navbar } from './components'
+import { Home, AboutPage, ServicesPage, ContactsPage } from './Pages'
 import './App.css';
 
 function App() {
   return (
     <div className="app">
         <Router>
-          <Navbar />
           <Switch>
             <Route path="/" exact>
               <Home />
@@ -20,6 +18,9 @@ function App() {
             </Route>
             <Route path="/services" exact>
               <ServicesPage />
+            </Route>
+            <Route path="/contact" exact>
+              <ContactsPage />
             </Route>
           </Switch>
         </Router>

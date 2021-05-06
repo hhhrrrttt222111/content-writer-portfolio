@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Landing, CardOne, CardTwo, CardThree, Loader } from '../../components'
+import { Landing, CardOne, CardTwo, CardThree, Loader, Navbar } from '../../components'
 
 import './Home.css'
 
@@ -18,6 +18,7 @@ function Home() {
                         <Loader />
                     </div>
                 </> : <>
+                    <Navbar home={true}/>
                     <Landing />
                     <CardOne />
                     <CardTwo />

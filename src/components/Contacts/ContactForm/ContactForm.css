@@ -1,0 +1,54 @@
+.contactForm {
+    padding: 2rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    /* width: 90%; */
+}
+
+.contactForm > h2 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.formContainer {
+    margin: 2rem;
+    padding: 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.name {
+    width: 400px;
+    margin-right: 0.5rem !important;
+}
+
+.email {
+    width: 400px;
+}
+
+.subject {
+    width: 100%;
+    margin-top: 1rem !important;
+}
+
+.message {
+    width: 800px;
+    margin-top: 1rem !important;
+}

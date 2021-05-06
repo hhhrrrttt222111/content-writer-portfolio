@@ -1,0 +1,21 @@
+.contactsHeader {
+    padding: 2rem;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.contactsHeader > h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.contactContainer {
+    margin-top: 2rem !important;
+}

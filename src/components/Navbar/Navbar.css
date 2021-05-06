@@ -18,6 +18,7 @@
 
 .navbar-pc > a {
     text-decoration: none;
+    position: relative;  
 }
 
 .navbar-pc > a > p {
@@ -98,3 +99,4 @@
 @media only screen and (device-width: 768px) {
 
 }
+

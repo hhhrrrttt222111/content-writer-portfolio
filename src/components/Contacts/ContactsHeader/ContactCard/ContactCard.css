@@ -1,0 +1,57 @@
+.contactCard {
+    margin: 2rem;
+}
+
+.contactCard > .MuiPaper-root {
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 35%);
+    transition: 0.8s;
+}
+
+.contactCard > .MuiPaper-root:hover {
+    background-color: #ffccff;
+    cursor: pointer;
+}
+
+.contactCard_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.contactCard_container > h3 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    word-spacing: 3px;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: #000;
+}
+
+.contactCard_container > h4 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    word-spacing: 2px;
+    margin-top: 0.5rem;
+    width: 90%;
+    color: #000;
+    opacity: 0.9;
+}
+
+.cc_icon {
+    color: white;
+    font-size: 1.8rem;
+    background-color: #ff33ff;
+    padding: 1rem;
+    margin: 1.75rem;
+    border-radius: 100%;
+    transition: ease-in-out 0.5s
+}
+
+.cc_icon:hover {
+    color: #ff33ff;
+    background-color: #ffccff;
+}

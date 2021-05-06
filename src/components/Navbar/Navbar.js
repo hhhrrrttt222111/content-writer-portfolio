@@ -10,7 +10,7 @@ import './Navbar.css'
 
 import navImg from '../../assets/png/navImg.png'
 
-function Navbar() {
+function Navbar({ home }) {
 
     const [open, setOpen] = useState(false);
 
@@ -39,10 +39,25 @@ function Navbar() {
         }
     });
 
+
+    const styles = {
+        background: home ? 'transparent' : 'white',
+        boxShadow: home ? 'none' : '0 12px 24px rgb(47 49 93 / 5%)',
+    }
+
+    const navItemStyle = {
+        color: home ? 'white' : 'red',
+    }
+
+    const activeStyle = {
+        borderBottom: '2px solid gray' ,
+        paddingBottom: '0.35rem',
+    }
+
     const classes = useStyles();
 
     return (
-        <div className="navbar">
+        <div className="navbar" style={styles}>
 
             <div className="navbar-mob">
                 <IconButton
@@ -118,21 +133,21 @@ function Navbar() {
 
 
 
-            <div className="navbar-pc">
+            <div className="navbar-pc" >
                 <NavLink to="/" >
-                    <p>home</p>
+                    <p style={navItemStyle}>home</p>
                 </NavLink>
-                <NavLink to="/about" activeStyle={{borderBottom:'2px solid black'}}>
-                    <p>about</p>
+                <NavLink to="/about" activeStyle={activeStyle}>
+                    <p style={navItemStyle}>about</p>
                 </NavLink>
-                <NavLink to="/services" activeStyle={{ borderBottom: '2px solid black' }}>
-                    <p>services</p>
+                <NavLink to="/services" activeStyle={activeStyle}>
+                    <p style={navItemStyle}>services</p>
                 </NavLink>
-                <NavLink to="/blog" activeStyle={{ borderBottom: '2px solid black' }}>
-                    <p>blog</p>
+                <NavLink to="/blog" activeStyle={activeStyle}>
+                    <p style={navItemStyle}>blog</p>
                 </NavLink>
-                <NavLink to="/contact" activeStyle={{ borderBottom: '2px solid black' }}>
-                    <p>contact</p>
+                <NavLink to="/contact" activeStyle={activeStyle}>
+                    <p style={navItemStyle}>contact</p>
                 </NavLink>
             </div>
         </div>

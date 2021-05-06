@@ -35,11 +35,25 @@
 
 
 @media screen and (max-width: 992px) {
-
+    .myServices {
+        padding-top: 3rem;
+    }
 }
 
 @media screen and (max-width: 800px) {
+    .myServices {
+        padding: 2rem;
+        padding-top: 3rem;
+    }
+    
+    .myServices > h1 {
+        font-size: 2.5rem;
+    }
 
+    .myServices > p {
+        font-size: 1.45rem;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -47,12 +61,32 @@
 }
 
 @media screen and (max-width: 400px) {
+    .myServices {
+        padding: 2rem;
+        padding-top: 3rem;
+    }
+    .myServices > h1 {
+        font-size: 2rem;
+    }
 
+    .myServices > p {
+        font-size: 1.25rem;
+    }
 }
   
 @media only screen and (min-device-width: 320px) and (max-device-width: 
   480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    .myServices {
+        padding: 1rem;
+        padding-top: 2.5rem;
+    }
+    .myServices > h1 {
+        font-size: 2rem;
+    }
 
+    .myServices > p {
+        font-size: 1.25rem;
+    }
 }
 
 
