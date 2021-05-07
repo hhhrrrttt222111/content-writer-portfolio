@@ -15,8 +15,8 @@ function ContactsHeader() {
                 <ContactCard 
                     Icon={FaMapMarkerAlt}
                     title="Address"
-                    href="#"
-                    text="98 West 21th Street, Suite 721 New York NY 10016"
+                    href="https://maps.app.goo.gl/pueGaPVWD9z4JM6Q7"
+                    text="Kunnupada(H), Mottammal PO 670331, Kannapuram, Kannur, Kerala"
                 />
                 <ContactCard 
                     Icon={IoMailOpenSharp}

@@ -24,7 +24,7 @@ function ContactCard({ Icon, title, href, text }) {
             <div className="contactCard">
                     <Card className={classes.root}>
                         <CardContent>
-                            <a href={href} className="contactCard_container">
+                            <a href={href} target="_blank" rel="noopener noreferrer" className="contactCard_container">
                                 <h3>{title}</h3>
                                 <Icon className="cc_icon"/>
                                 <h4>{text}</h4>

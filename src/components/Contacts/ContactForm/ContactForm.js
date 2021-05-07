@@ -2,6 +2,7 @@ import React from 'react'
 import TextField from '@material-ui/core/TextField';
 
 import './ContactForm.css'
+import { Button } from '@material-ui/core';
 
 function ContactForm() {
     return (
@@ -43,6 +44,8 @@ function ContactForm() {
                             rows={6}
                         />
                     </div>
+
+                    <Button>Send Message</Button>
                 </form>
             </div>
         </div>

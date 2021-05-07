@@ -1,11 +1,13 @@
 .contactForm {
     padding: 2rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
+    background-color: #800080;
     overflow: hidden;
     /* width: 90%; */
 }
@@ -15,12 +17,12 @@
     margin-top: 1rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    color: white;
 }
 
 .formContainer {
     margin: 2rem;
-    padding: 2rem;
-    width: 80%;
+    padding: 3rem 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,13 +33,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
+    background-color: #ffccff;
+    border-radius: 10px;
+    padding: 5rem;
+    padding-bottom: 2rem;
 }
 
 .name {
     width: 400px;
     margin-right: 0.5rem !important;
+    outline: none !important;
 }
+
 
 .email {
     width: 400px;
@@ -49,6 +57,216 @@
 }
 
 .message {
-    width: 800px;
+    width: 808px;
     margin-top: 1rem !important;
+}
+
+
+.formDiv > button {
+    margin-top:2rem;
+    border: 1px solid #800080;
+    outline: none;
+    padding: 0.85rem 1.85rem;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #800080;
+    transition: ease 0.2s;
+    font-size: 1.025rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formDiv > button:hover {
+    background-color: #800080;
+    color: white;
+}
+
+.MuiOutlinedInput-colorSecondary.Mui-focused
+.MuiOutlinedInput-notchedOutline {
+    border-color: #800080 !important;
+} 
+
+.PrivateNotchedOutline-legendLabelled-8 > span {
+    color: #800080 !important;
+    background-color: #800080 !important;
+}
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1380px) {
+    .formContainer {
+        margin: 1rem;
+        padding: 2rem 0rem;
+    }
+    .formDiv {
+        padding: 3rem;
+        padding-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .formContainer {
+        margin: 1rem;
+        padding: 1rem 0rem;
+    }
+    .formDiv {
+        padding: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    .name {
+        width: 360px;
+        margin-right: 0.5rem !important;
+        outline: none !important;
+    }
+
+
+    .email {
+        width: 360px;
+    }
+
+    .subject {
+        width: 100%;
+    }
+
+    .message {
+        width: 724px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contactForm {
+        padding: 1rem;
+        padding-top: 3rem;
+    }
+
+    .contactForm > h2 {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    
+    
+    .formContainer {
+        margin: 0.5rem;
+        padding: 1rem 0rem;
+    }
+    .formDiv {
+        padding: 2rem;
+        padding-bottom: 2rem;
+    }
+    .formOne {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name {
+        width: 400px;
+        margin-right: 0rem !important;
+        margin-bottom: 1rem !important;
+        outline: none !important;
+    }
+    
+    
+    .email {
+        width: 400px;
+    }
+    
+    .subject {
+        width: 400px;
+        margin-top: 1rem !important;
+    }
+    
+    .message {
+        width: 400px;
+        margin-top: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .formDiv {
+        padding: 2rem 1.5rem;
+    }
+    .name {
+        width: 320px;
+        margin-right: 0rem !important;
+        margin-bottom: 1rem !important;
+        outline: none !important;
+    }
+    
+    
+    .email {
+        width: 320px;
+    }
+    
+    .subject {
+        width: 320px;
+        margin-top: 1rem !important;
+    }
+    
+    .message {
+        width: 320px;
+        margin-top: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .formDiv {
+        padding: 1.5rem 1.2rem;
+    }
+    .name {
+        width: 300px;
+    }
+    
+    
+    .email {
+        width: 300px;
+    }
+    
+    .subject {
+        width: 300px;
+        margin-top: 1rem !important;
+    }
+    
+    .message {
+        width: 300px;
+        margin-top: 1rem !important;
+    }
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    .formDiv {
+        padding: 1rem;
+    }
+    .name {
+        width: 260px;
+    }
+    
+    
+    .email {
+        width: 260px;
+    }
+    
+    .subject {
+        width: 260px;
+        margin-top: 1rem !important;
+    }
+    
+    .message {
+        width: 260px;
+        margin-top: 1rem !important;
+    }
+}
+
+
+@media only screen and (device-width: 768px) {
+
 }
