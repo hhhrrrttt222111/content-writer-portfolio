@@ -1,7 +1,6 @@
 .cardThree {
     height: 100vh;
     position: relative;
-    background-color: lawngreen;
     overflow: hidden;
 }
 
@@ -16,6 +15,9 @@
     height: 650px;
     border-radius: 5px;
     pointer-events: none;
+    box-shadow: -7px 7px 22px 0px rgba(51,0,51,0.79);
+    -webkit-box-shadow: -7px 7px 22px 0px rgba(51,0,51,0.79);
+    -moz-box-shadow: -7px 7px 22px 0px rgba(51,0,51,0.79);
 }
 
 .cardThreeDiv {
@@ -25,17 +27,21 @@
     height: 400px;
     right: 7%;
     bottom: 15%;
-    background-color: black;
+    background-color: #330033;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: 4px 8px 34px -5px rgba(51,0,51,0.79);
+-webkit-box-shadow: 4px 8px 34px -5px rgba(51,0,51,0.79);
+-moz-box-shadow: 4px 8px 34px -5px rgba(51,0,51,0.79);
 }
 
 .cardThreeDiv > h1 {
     color: whitesmoke;
     margin: 2rem 4rem 2rem;
     font-size: 2.3rem;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -43,6 +49,7 @@
     color: whitesmoke;
     margin: 1rem 4rem 2rem 4rem;
     font-size: 1.3rem;
+    font-family: 'Lato', sans-serif;
 }
 
 

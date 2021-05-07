@@ -3,10 +3,12 @@ import React from 'react'
 import './AboutMe.css'
 
 import about1 from '../../../assets/svg/about1.svg'
+import aboutBg from '../../../assets/svg/aboutBg.svg'
 
 function AboutMe() {
     return (
         <div className="aboutMe">
+            <img src={aboutBg} alt="" className="aboutBg"/>
             <div className="aboutContainer">
                 <h1>Ye, bro.</h1>
                 <h3>A small river named Duden flows by their place and supplies it with the necessary regelialia.</h3>

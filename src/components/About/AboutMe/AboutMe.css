@@ -3,11 +3,22 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.aboutBg {
+    position: absolute;
+    z-index: 0;
+    width: 800px;
+    pointer-events: none;
+    left: 5%;
 }
 
 .aboutContainer {
     margin: 7rem 3rem 3rem 3rem;
     width: 65%;
+    z-index: 9;
 }
 
 .aboutContainer > h1 {
@@ -42,6 +53,8 @@
 .aboutBody > img {
     width: 400px;
     margin-left: 2rem;
+    margin-top: 5rem;
+    pointer-events: none;
 }
 
 
@@ -69,6 +82,9 @@
         margin: 5rem 3rem 3rem 3rem;
         width: 90%;
     }
+    .aboutBg {
+        display: none;
+    }
     .aboutBody {
         display: flex;
         flex-direction: column-reverse;
@@ -79,6 +95,7 @@
     .aboutBody > img {
         width: 300px;
         margin-left: 0rem;
+        margin-top: 0;
     }
         
     .aboutContainer > h1 {

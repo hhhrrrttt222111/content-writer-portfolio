@@ -4,13 +4,15 @@
 
 .serviceCard > .MuiPaper-root {
     background-color: white;
-    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 35%);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
     transition: 0.8s;
 }
 
 .serviceCard > .MuiPaper-root:hover {
     background-color: #ffccff;
     cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 55%);
+    margin-top: -1rem;
 }
 
 .serviceCard_content {
