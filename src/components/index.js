@@ -9,6 +9,7 @@ export { default as MyServices } from './Services/MyServices/MyServices'
 export { default as Testimonials } from './Services/Testimonials/Testimonials'
 export { default as ContactsHeader } from './Contacts/ContactsHeader/ContactsHeader'
 export { default as ContactForm } from './Contacts/ContactForm/ContactForm'
+export { default as Blog } from './Blog/Blog'
 
 export { default as Navbar } from './Navbar/Navbar'
 export { default as Loader } from './Misc/Loader'

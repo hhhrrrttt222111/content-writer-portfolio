@@ -2,7 +2,7 @@ import React from 'react'
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import { Home, AboutPage, ServicesPage, ContactsPage } from './Pages'
+import { Home, AboutPage, ServicesPage, ContactsPage, BlogPage } from './Pages'
 import './App.css';
 
 function App() {
@@ -18,6 +18,9 @@ function App() {
             </Route>
             <Route path="/services" exact>
               <ServicesPage />
+            </Route>
+            <Route path="/blog" exact>
+              <BlogPage />
             </Route>
             <Route path="/contact" exact>
               <ContactsPage />
