@@ -12,4 +12,5 @@ export { default as ContactForm } from './Contacts/ContactForm/ContactForm'
 export { default as Blog } from './Blog/Blog'
 
 export { default as Navbar } from './Navbar/Navbar'
+export { default as Footer } from './Footer/Footer'
 export { default as Loader } from './Misc/Loader'
