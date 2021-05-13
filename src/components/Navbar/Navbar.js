@@ -30,7 +30,7 @@ function Navbar({ home }) {
             fontStyle:' normal',
             fontWeight:' normal',
             fontSize:' 24px',
-            background: 'wheat',
+            background: '#ffb3ff',
             overflow: 'hidden'
         },
         closebtnIcon: {
@@ -67,7 +67,7 @@ function Navbar({ home }) {
                     onClick={handleDrawerOpen}
                     className="menuDrawerIcon"
                 >
-                    <MenuIcon style={{fontSize: '2.1rem', color: 'black', background: 'wheat', borderRadius: '100%', padding: '0.45rem'}}/>
+                    <MenuIcon style={{fontSize: '2.1rem', color: 'black', background: '#ffb3ff', borderRadius: '100%', padding: '0.45rem'}}/>
                 </IconButton>
 
 
