@@ -4,7 +4,7 @@ import { Navbar, Blog } from '../../components'
 function BlogPage() {
     return (
         <div>
-            <Navbar home={false}/>
+            <Navbar home={true}/>
             <Blog />
         </div>
     )

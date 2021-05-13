@@ -1,62 +1,54 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
-import './Footer.css'
 import { AiOutlineMedium } from "react-icons/ai";
 import { FiInstagram } from "react-icons/fi";
 import { FaLinkedinIn} from "react-icons/fa";
 import { FaTwitter} from "react-icons/fa";
-import {Link} from "react-router-dom";
 
-import img from '../../assets/img5.jpg'
+import './Footer.css'
 
 
 function Footer() {
+
+    var year=new Date().getFullYear();
+
     return (
-        <footer className = "site-footer">
-            <div class = "container">
+        <footer className="site-footer">
+            <div className="container">
 
-                <div class="grid-container">
-                    <div class="grid-item">
-                        
-                        <img src = {img} class = "logo-img" />
-
+                <div className="grid-container">
+                    <div className="grid-item grid-one">
+                        <img src=" " className="logo-img"/>
                     </div>
 
-                    <div class="grid-item inner-grid-container">
-                        
-                        <div class="grid-item">
-                            <Link to = '/about'>About</Link>
-                        </div>    
-                        
-                        <div class="grid-item"><Link to = '/blog'>Blog</Link></div>   
-                        <div class="grid-item"><Link to = '/contact'>Contacts</Link></div>   
-                        <div class="grid-item"><Link to = "/services">Services</Link></div>   
-
-
+                    <div className="grid-item inner-grid-container">  
+                        <div className="grid-item"><Link to='/about'>About</Link></div>    
+                        <div className="grid-item"><Link to='/blog'>Blog</Link></div>   
+                        <div className="grid-item"><Link to="/services">Services</Link></div>   
+                        <div className="grid-item"><Link to='/contact'>Contacts</Link></div>   
                     </div>
 
-                    <div class="grid-icon">
-                        <div class = "social-buttons">
-                            <a href= " " className="circle-icon">
+                    <div className="grid-icon">
+                        <div className="social-buttons">
+                            <a href="https://medium.com/@anjaliraj2804" target="_blank" rel="noreferrer" className="circle-icon">
                               <AiOutlineMedium/> 
                             </a>
-                            <a href= "https://www.instagram.com/_anjali__rajendran_/" className="circle-icon">
+                            <a href="https://www.instagram.com/_anjali__rajendran_/" target="_blank" rel="noreferrer" className="circle-icon">
                                <FiInstagram/> 
                             </a>
-                            <a href= "https://www.linkedin.com/in/anjali-rajendran28/" className="circle-icon">
+                            <a href="https://www.linkedin.com/in/anjali-rajendran28/" target="_blank" rel="noreferrer" className="circle-icon">
                                <FaLinkedinIn/> 
                             </a>
-                            <a href= "" className="circle-icon">
+                            <a href="https://twitter.com/Anjaliiii10" target="_blank" rel="noreferrer" className="circle-icon">
                                 <FaTwitter/>
                             </a>
                         </div>
                     </div>   
                 </div>
                 <hr />
-
-                <p>Copyright © 2021 | Anjali Rajendran</p>
-
-                </div>
+                <p>Copyright © {year} | Anjali Rajendran</p>
+            </div>
         </footer>
     )
 }
