@@ -8,7 +8,7 @@
 
 .box-container{
     background-image: url('../../assets/bg2.jpg');
-    height: 600px;
+    height: 550px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,15 +23,23 @@
      position: relative;
     }
 
-    .box-title{
-        position: absolute;
-        top: 46%;
-        left: 37%;
-    }
+.box-title{
+    position: absolute;
+    top: 46%;
+    left: 37%;
+    -ms-transform: rotate(1.5deg);
+    transform: rotate(1.5deg);
+    color: #262626;
+}
+
 
 .blogs-container{
     padding-top: 0.75rem;
 } 
+
+.MuiGrid-spacing-xs-5 {
+    width: calc(100% + 30px);
+}
 
 .blog-title{
     font-weight: bold !important;

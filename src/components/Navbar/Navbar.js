@@ -50,8 +50,10 @@ function Navbar({ home }) {
     }
 
     const activeStyle = {
-        borderBottom: '2px solid gray' ,
+        borderBottom: home ? '3px solid white' : '3px solid #800080',
+        // borderTop: home ? '3px solid white' : '3px solid #800080',
         paddingBottom: '0.35rem',
+        paddingTop: '0.35rem',
     }
 
     const classes = useStyles();

@@ -6,7 +6,7 @@ import { MdSchool } from "react-icons/md";
 import EduCard from './EduCard/EduCard'
 import './Education.css'
 
-import eduImg from '../../../assets/png/eduImg.png'
+import eduImg from '../../../assets/png/hp.png'
 
 function Education() {
     return (

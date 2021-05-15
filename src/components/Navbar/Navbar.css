@@ -27,10 +27,29 @@
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
-    color: brown;
     white-space: nowrap;
     font-family: cursive;
+    position: relative;
+    display: inline-block;
 }
+
+.navbar-pc > a > p:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -0.55rem;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #800080;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.navbar-pc > a > p:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
 
 
 .navbar-mob {
