@@ -15,11 +15,10 @@ function CardThree() {
             </Fade>
             <Fade right>
                 <div className="cardThreeDiv">
-                    <h1>Card Three Heading Here.. hihihi hihihi</h1>
+                    <h1>Well here's your solution.</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    Me!<br/>
+                    Now you can sit back and relax, for you have reached the perfect place. I can help you tell your story to the world.
                     </p>
                 </div>
             </Fade>

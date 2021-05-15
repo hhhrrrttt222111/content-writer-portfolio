@@ -9,11 +9,10 @@ function CardTwo() {
         <div className="cardTwo">
             <Fade left>
                 <div className="cardTwoDiv">
-                    <h1>Card Two Heading Here.. hihihi hihihi</h1>
+                    <h1>What's on your mind</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    Have you designed a product and want it to sell out as soon as it hits the shelves?<br/>
+                    Holding back only because you don’t know how to put it into words?
                     </p>
                 </div>
             </Fade>

@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+
 .blog {
     padding-top: 0rem;
     padding-bottom: 8rem;
 }
 
 .box-container{
-    background-image: url('../../assets/img4.jpg');
+    background-image: url('../../assets/bg2.jpg');
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,9 +17,16 @@
     justify-content: center;
     align-items: center;
      margin-bottom: 1rem;
-     color : #fff;
+     color : #000010;
      font-size: 4rem;
-     font-family: cursive;
+     font-family: 'Libre Baskerville', serif;
+     position: relative;
+    }
+
+    .box-title{
+        position: absolute;
+        top: 46%;
+        left: 37%;
     }
 
 .blogs-container{
@@ -25,7 +35,7 @@
 
 .blog-title{
     font-weight: bold !important;
-    font-family:cursive !important;
+    font-family: 'Lato', sans-serif !important; 
     padding-bottom: 2rem;
 }
 
@@ -77,12 +87,21 @@ a {
      }
 
      .blog-title{
-         font-size: 1.5rem !important;
+         font-size: 1rem !important;
      }
 
      .img-container{
     
         height: 160px;
+    }
+
+    
+
+   .box-title {
+    position: absolute;
+    top: 44%;
+    left: 28%;
+    font-size: 3rem;
     }
  }
 
@@ -106,4 +125,14 @@ a {
         font-size: 1.5rem !important;
     }
 
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    .box-title {
+        position: absolute;
+        top: 44%;
+        left: 21%;
+        font-size: 2.75rem;
+    }
 }
