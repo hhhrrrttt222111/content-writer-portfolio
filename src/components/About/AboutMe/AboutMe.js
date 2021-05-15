@@ -10,21 +10,14 @@ function AboutMe() {
         <div className="aboutMe">
             <img src={aboutBg} alt="" className="aboutBg"/>
             <div className="aboutContainer">
-                <h1>Ye, bro.</h1>
-                <h3>A small river named Duden flows by their place and supplies it with the necessary regelialia.</h3>
+                <h1>Hey, folks!</h1>
+                <h3>Anjali here.</h3>
                 <div className="aboutBody">
                     <p>
-                        The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. 
-                        Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he 
-                        is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance 
-                        and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when 
-                        I lay My vengeance upon thee. <br /><br />
-                        Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into 
-                        a glass mf' house, fyckin' up the way the nigger talks. Do that shit to me, he better paralyze my ass, 
-                        'cause I'll kill the ..., know what I'm sayin'? <br /><br />
-                        Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can 
-                        tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you 
-                        and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass.
+                        I am a second-year computer science and engineering student with a passion for writing. A firm believer in the simulation theory, storytelling has always come easy to me, not once having trouble stringing together words appealingly. I first discovered that I have a knack for writing catchy slogans and product pitches when I was asked to write the broadcast content for a college-organized event, which became a huge success. That was when I realized that I take delight in putting others’ brilliant ideas into words and awing the audience. I normally while away my time reading books(it is to this habit that I owe my passion for writing to) or watching movies of all genres, so that’s what I'm probably doing right now. Oh and this is probably a great time to mention that I am the biggest Potterhead I know and that you shouldn’t mention Harry Potter to me unless you want me to talk your ear off. I love listening to music and play a little piano myself. I take great pleasure in solving puzzles, brain teasers and crosswords and also love learning new things, which is why I love coding.  <br /><br />
+                        Enough said about me, now tell me your story and your ideas so I can help you tell it to the world.<br/>
+                        Do check out my work and contact me if it piques your interest!<br/>
+                        Thanks for stopping by!
                     </p>
 
                     <img src={about1} alt="" />

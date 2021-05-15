@@ -40,8 +40,8 @@ function Blog() {
     return (
         <div className="blog">
             <Box className="box-container">
-                <Box>
-                    Blog
+                <Box className = "box-title">
+                    BLOG
                 </Box>
             </Box>
             <Container maxWidth="lg" className="blogs-container">

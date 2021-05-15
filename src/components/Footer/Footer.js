@@ -7,7 +7,7 @@ import { FaLinkedinIn} from "react-icons/fa";
 import { FaTwitter} from "react-icons/fa";
 
 import './Footer.css'
-
+import footerimg from '../../assets/svg/footerImg.svg'
 
 function Footer() {
 
@@ -19,7 +19,7 @@ function Footer() {
 
                 <div className="grid-container">
                     <div className="grid-item grid-one">
-                        <img src=" " className="logo-img"/>
+                        <img src={footerimg} className="logo-img"/>
                     </div>
 
                     <div className="grid-item inner-grid-container">  

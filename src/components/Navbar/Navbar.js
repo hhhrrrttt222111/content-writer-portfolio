@@ -46,7 +46,7 @@ function Navbar({ home }) {
     }
 
     const navItemStyle = {
-        color: home ? 'white' : 'red',
+        color: home ? 'white' : '#800080',
     }
 
     const activeStyle = {

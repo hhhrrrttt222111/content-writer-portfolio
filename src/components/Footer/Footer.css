@@ -72,7 +72,8 @@ footer {
   
   .site-footer .container .logo-img {
       width: 180px;
-      height: 150px;      
+      height: 150px; 
+      pointer-events: none;     
   }
   
   .site-footer .grid-container .grid-icon .social-buttons {

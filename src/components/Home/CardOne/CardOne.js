@@ -15,11 +15,10 @@ function CardOne() {
             </Fade>
             <Fade right>
                 <div className="cardOneDiv">
-                    <h1>Card One Heading Here.. hihihi hihihi</h1>
+                    <h1>Hey there</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    Have a brilliant idea in your brain that has the potential to blow minds? <br/>
+                    Have you designed a website and are in desperate need of the words to market it?
                     </p>
                 </div>
             </Fade>
