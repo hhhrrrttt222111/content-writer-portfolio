@@ -1,0 +1,34 @@
+.fournotfour-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../assets/svg/Cloudy.svg');
+    height: 100vh;
+}
+
+.fournotfour-container > h1 {
+    font-size: 6rem;
+}
+
+
+.fournotfour-container > p {
+    font-size: 2rem;
+}
+
+.fournotfour-container >a> button, .fournotfour-container >a> button:hover {
+    font-size: 1.2rem;
+    margin-top: 1.75rem;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    color: pink;
+    background-color: black;
+}
+
+
+.fournotfour-image{
+    width: 380px;    
+}
+
+
+
