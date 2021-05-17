@@ -5,7 +5,7 @@ import './Home.css'
 
 function Home() {
 
-    const [spinner, setSpinner] = useState(false);
+    const [spinner, setSpinner] = useState(true);
 
     useEffect(() => {
         setTimeout(() => setSpinner(false), 1000)

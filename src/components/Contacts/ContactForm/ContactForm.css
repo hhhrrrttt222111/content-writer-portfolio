@@ -92,7 +92,13 @@
 }
 
 
-
+.MuiSnackbarContent-root {
+    background: #cc00cc !important; 
+  }
+  
+.MuiSnackbarContent-message {
+    font-weight: 800;
+}
 
 
 
