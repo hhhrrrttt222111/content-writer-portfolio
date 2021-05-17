@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { Footer } from './components'
+import { Footer, FourNotFour } from './components'
 import { Home, AboutPage, ServicesPage, ContactsPage, BlogPage } from './Pages'
 import ScrollToTop from './utils/ScrollToTop'
 
@@ -28,6 +28,8 @@ function App() {
             <Route path="/contact" exact>
               <ContactsPage />
             </Route>
+
+            <Route component={FourNotFour}/>
           </Switch>
           <Footer />
         </Router>
