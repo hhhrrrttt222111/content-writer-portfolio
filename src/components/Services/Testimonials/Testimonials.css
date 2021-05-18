@@ -97,9 +97,9 @@
 .slider > h2 {
     font-family: 'Lato', sans-serif;
     text-align: center;
-    word-spacing: 3px;
+    word-spacing: 1px;
     margin-bottom: 2rem;
-    font-size: 1.35rem;
+    font-size: 1.15rem;
 }
 
 .slider > h3 {
@@ -111,7 +111,7 @@
 .slider > p {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0.25rem;
     opacity: 0.8;
     font-weight: 800;
 }

@@ -19,7 +19,7 @@ function Footer() {
 
                 <div className="grid-container">
                     <div className="grid-item grid-one">
-                        <img src={footerimg} className="logo-img"/>
+                        <img src={footerimg} alt="" className="logo-img"/>
                     </div>
 
                     <div className="grid-item inner-grid-container">  

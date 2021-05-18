@@ -135,17 +135,17 @@
     }
     .cardThreeDiv {
         width: 250px;
-        height: 300px;
+        height: 280px;
         right: 10px;
         bottom: 10%;
     }
     .cardThreeDiv > h1 {
         margin: 0 0.8rem 0 0.8rem;
-        font-size: 1.3rem;
+        font-size: 2rem;
     }    
     .cardThreeDiv > p {
         margin: 0.8rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 
@@ -166,11 +166,11 @@
     }
     .cardThreeDiv > h1 {
         margin: 0 0.8rem 0 0.8rem;
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }    
     .cardThreeDiv > p {
         margin: 0.8rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
   

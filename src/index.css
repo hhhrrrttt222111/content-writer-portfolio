@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&display=swap');
 
+@font-face {
+  font-family: 'HarryP-MVZ6w';
+  src: url('./assets/fonts/HarryP-MVZ6w.ttf'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/HarryP-MVZ6w.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/fonts/HarryP-MVZ6w.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 * {
   margin: 0;
   /* font-family: 'Lato', sans-serif;
@@ -9,4 +16,24 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+
+html {
+  --scrollbarBG: #1a001a;
+  --thumbBG: #cc00cc;
+  --gradBG: #ff80ff;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body {
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(var(--thumbBG), var(--gradBG));
+  /* background-color: var(--thumbBG) ; */
 }

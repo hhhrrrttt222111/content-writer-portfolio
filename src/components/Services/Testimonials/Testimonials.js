@@ -8,14 +8,16 @@ import './Testimonials.css'
 import testimonial from '../../../assets/png/testimonial.png'
 import gear from '../../../assets/svg/gear.svg'
 
-const imgSrc="https://media.onesignal.com/cms/_363xAUTO_crop_center-center_none/sms_2020-12-02-231422.png?mtime=20201202151422&focal=none&tmtime=20210322204235"
+import test1 from '../../../assets/testimonials/test1.jpeg'
+
+
 const testimonials = [
     {
         'id': 1,
-        'name': 'John wick',
-        'title': 'You know it',
-        'text': 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia 11',
-        'image': 'imgSrc'
+        'name': 'Hemanth R',
+        'title': 'Frontend Developer',
+        'text': 'Anjali is great! Easy to work with and is always professional. Her content is top notch and I would recommend her without any hesitation.',
+        'image': test1
     },
     {
         'id': 2,
@@ -64,7 +66,7 @@ function Testimonials() {
                         <div className={index === current ? 'slide active' : 'slide'} >
                             {index === current && (
                             <>
-                                <Avatar className="sliderImg" src={imgSrc} />
+                                <Avatar className="sliderImg" src={slide.image} />
                                 <FormatQuoteIcon className="quote_icon"/>
                                 <div className="slider">
                                     <h2>{slide.text}</h2>

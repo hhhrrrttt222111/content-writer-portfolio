@@ -46,7 +46,7 @@ function SkillCard( { value, name, Icon }) {
       return () => {
         clearInterval(timer);
       };
-    }, []);
+    });
     return (
         <Fade bottom>
             <div className="skillCard">

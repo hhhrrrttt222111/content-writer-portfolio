@@ -37,7 +37,7 @@ function SkillProgress({ value, name }) {
       return () => {
         clearInterval(timer);
       };
-    }, []);
+    });
 
     return (
         <Fade bottom>
