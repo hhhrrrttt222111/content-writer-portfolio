@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Helmet } from "react-helmet";
 import { Landing, CardOne, CardTwo, CardThree, Loader, Navbar } from '../../components'
 
 import './Home.css'
@@ -13,6 +14,9 @@ function Home() {
 
     return (
         <div className="home">
+            <Helmet>
+                <title>Anjali Rajendran</title>
+            </Helmet>
             {spinner ? <>
                     <div className="spinner-container">
                         <Loader />

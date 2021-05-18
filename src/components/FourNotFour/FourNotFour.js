@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Helmet } from "react-helmet";
 import './FourNotFour.css';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
@@ -11,6 +12,9 @@ import dh from '../../assets/png/dh.png'
 function FourNotFour() {
    return (
       <div className="fournotfour">
+         <Helmet>
+               <title>Ooops!</title>
+         </Helmet>
          <h1>404</h1>
 
          <img src={fournotfourImage} className="fournotfour-image" alt=""/>

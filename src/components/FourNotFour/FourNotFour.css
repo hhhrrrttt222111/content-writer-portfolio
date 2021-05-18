@@ -94,6 +94,7 @@
     bottom: 0;
     margin: 2rem;
     opacity: 0.9;
+    pointer-events: none;
 }
 
 

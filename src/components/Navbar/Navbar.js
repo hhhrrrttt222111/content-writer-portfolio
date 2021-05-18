@@ -42,7 +42,7 @@ function Navbar({ home }) {
 
     const styles = {
         background: home ? 'transparent' : 'white',
-        boxShadow: home ? 'none' : '0 12px 24px rgb(47 49 93 / 5%)',
+        boxShadow: home ? 'none' : '0 12px 24px rgb(47 49 93 / 10%)',
     }
 
     const navItemStyle = {
