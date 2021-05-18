@@ -2,7 +2,7 @@ import React from 'react'
 
 import './AboutMe.css'
 
-import about1 from '../../../assets/svg/about1.svg'
+import about1 from '../../../assets/png/about1.png'
 import aboutBg from '../../../assets/svg/aboutBg.svg'
 
 function AboutMe() {
