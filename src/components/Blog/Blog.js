@@ -1,50 +1,38 @@
 
 import React, { useEffect, useState } from 'react';
-import { ArrowForwardIos } from '@material-ui/icons';
-import { Box, Card, CardActionArea, CardActions, CardContent, CardMedia, Container, Grid, Typography } from '@material-ui/core'
-import IconButton from '@material-ui/core/IconButton';
-import Skeleton from '@material-ui/lab/Skeleton';
-import Tooltip from '@material-ui/core/Tooltip';
-import { makeStyles } from '@material-ui/core/styles';
+import { Box, Container, Typography } from '@material-ui/core'
+import Masonry from 'react-masonry-css'
 
 import './Blog.css'
+import Blogcard from './Blogcard';
 
-const useStyles = makeStyles((theme) => ({
-    media: {
-      height: 190,
-    },
-  }));
+
 
 const articles = [
     {
         'id': 1,
-        'title': 'React',
-        'desc': 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
-        'img': 'https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg',
-        'date': 'Jan 14,2020',
-        'url': ''
+        'title': '12 Angry Men, and Why You Should Watch It!',
+        'desc': '12 angry men cramped into a stuffy room, arguing on the ‘hottest day of the year’ does not exactly seem like a promising watch. It is nearly impossible to keep a single location – dialogue driven plot interesting . But, in this case, the 95 minute long movie is a huge success.',
+        'img': 'https://lostinnoir.com/wp-content/uploads/2020/07/Annotation-2020-07-01-153613.png',
+        'date': 'July 1, 2020',
+        'url': 'https://lostinnoir.com/2020/07/01/12-angry-men-and-why-you-should-watch-it/'
     },
     {
         'id': 2,
-        'title': 'React',
-        'desc': 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
-        'img': 'https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg',
-        'date': 'Jan 14,2020',
-        'url': ''
+        'title': 'Jab We Met: a “Rewatch”',
+        'desc': 'I recently rewatched Jab We Met. Well.. for the 23rd time for ones keeping count. And I thought, why not do a rewatch review. So here’s my “Rewatch review” of your favourite Bollywood rom-com, Jab We Met. ',
+        'img': 'https://lostinnoir.com/wp-content/uploads/2020/08/jbm2-300x164.png',
+        'date': 'August 6, 2020',
+        'url': 'https://lostinnoir.com/2020/08/06/jab-we-met-a-rewatch-review/'
     },
-    {
-        'id': 3,
-        'title': 'React',
-        'desc': 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
-        'img': 'https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg',
-        'date': 'Jan 14,2020',
-        'url': ''
-    },
+    
+    
+
 ]
 
 function Blog() {
 
-    const classes = useStyles();
+
 
     const [loading, setLoading] = useState(true)
 
@@ -53,6 +41,13 @@ function Blog() {
             setLoading(false)
         }, 2000);
     })
+
+    
+    const breakPoints = {
+        default: 3,
+        1100: 2,
+        700: 1
+    }
 
     return (
         <div className="blog">
@@ -65,73 +60,23 @@ function Blog() {
                 <Typography variant="h4" className="blog-title">
                     ARTICLES
                 </Typography>
-                <Grid container spacing={5}>
+                <Masonry
+                    breakpointCols={breakPoints}
+                    className="my-masonry-grid"
+                    columnClassName="my-masonry-grid_column">
                 {
-                    articles.map(article => (
-                        <Grid item xs={12} sm={6} md={4}>
-                            <a href={article.url}>
-                                <Card className="blog-card">
-                                    <CardActionArea disableRipple disableTouchRipple>
-                                        { loading ? (
-                                            <Skeleton animation="wave" variant="rect" className={classes.media}/>
-                                            ) : (
-                                            <CardMedia
-                                                className="img-container"
-                                                image={article.img}
-                                            />
-                                        )}
-                                        <CardContent>
-                                        {loading ? (
-                                            <React.Fragment>
-                                                <Skeleton animation="wave" height={25} style={{ marginBottom: 6 }} />
-                                                <Skeleton animation="wave" height={15} width="80%" />
-                                                <Skeleton animation="wave" height={15} width="80%" />
-                                                <Skeleton animation="wave" height={15} width="80%" />
-                                            </React.Fragment>
-                                            ) : (
-                                            <>
-                                                <Typography gutterBottom variant="h5" component="h2">
-                                                    {article.title}
-                                                </Typography>
-                                                <Typography variant="body2" color="textSecondary" component="p" >
-                                                    {article.desc}
-                                                </Typography>
-                                            </>
-                                        )}
-
-                                        </CardContent>   
-                                    </CardActionArea>
-                                    <CardActions className="card-actions">
-                                    {loading ? (
-                                        <Skeleton variant="rect" width="100%" height={28} />
-                                    ) : (
-                                            <>
-                                                <Box className="blog-author">
-                                                    <Box ml={2}>
-                                                        <Typography variant="subtitle2"  component="p" >
-                                                            {article.date}
-                                                        </Typography>
-                                                    </Box>
-                                                </Box>
-                                                <Box className="blog-icon">
-                                                    <Tooltip title="View Article">
-                                                        <IconButton aria-label="view">
-                                                            <ArrowForwardIos/>
-                                                        </IconButton>
-                                                    </Tooltip>
-                                                </Box>
-                                            </>
-                                        )}
-
-                                    </CardActions>
-                                </Card>
-                            </a>
-                        </Grid>
+                    articles.slice(0).reverse().map(article => (
+                        <Blogcard 
+                            loading={loading}
+                            url={article.url}
+                            img={article.img}
+                            title={article.title}
+                            desc={article.desc}
+                            date={article.date}
+                        />
                     ))
                 }
-
-                
-                </Grid>
+                </Masonry>
             </Container>
         </div>
     )
