@@ -2,7 +2,7 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './CardTwo.css'
 
-import img2 from '../../../assets/img2.jpg'
+import img2 from '../../../assets/img2.jpeg'
 
 function CardTwo() {
     return (

@@ -8,6 +8,7 @@
     position: absolute;
     left: 20%;
     top: 5%;
+    /* background: #4d004d; */
 }
 
 .cardOneImage > img {
@@ -18,6 +19,10 @@
     box-shadow: -7px 7px 22px 0px rgba(51,0,51,0.79);
     -webkit-box-shadow: -7px 7px 22px 0px rgba(51,0,51,0.79);
     -moz-box-shadow: -7px 7px 22px 0px rgba(51,0,51,0.79);
+    /* -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.5;	
+    pointer-events: none; */
 }
 
 .cardOneDiv {
