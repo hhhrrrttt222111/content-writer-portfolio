@@ -20,7 +20,7 @@ function Blogcard({ loading, url, img, title, desc, date }) {
 
     return (
 
-                <a href={url}>
+                <a href={url} target="_blank" rel="noreferrer">
                     <Card className="blog-card">
                         <CardActionArea disableRipple disableTouchRipple>
                             { loading ? (
