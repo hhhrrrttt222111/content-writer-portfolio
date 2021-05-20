@@ -1,7 +1,9 @@
 
 import React, { useEffect, useState } from 'react';
-import { Box, Container, Typography } from '@material-ui/core'
+import { Box, Container, Typography, TextField, InputAdornment } from '@material-ui/core'
+import CloseIcon from '@material-ui/icons/Close';
 import Masonry from 'react-masonry-css'
+import Fade from 'react-reveal/Fade'
 
 import './Blog.css'
 import Blogcard from './Blogcard';
@@ -24,15 +26,13 @@ const articles = [
         'img': 'https://lostinnoir.com/wp-content/uploads/2020/08/jbm2-300x164.png',
         'date': 'August 6, 2020',
         'url': 'https://lostinnoir.com/2020/08/06/jab-we-met-a-rewatch-review/'
-    },
-    
-    
+    },   
 
 ]
 
 function Blog() {
 
-
+    const [search, setSearch] = useState('')
 
     const [loading, setLoading] = useState(true)
 
@@ -41,6 +41,16 @@ function Blog() {
             setLoading(false)
         }, 2000);
     })
+
+    const filteredArticles = articles.filter((art) => {
+        return art.title.toLowerCase().includes(search.toLowerCase())
+    })
+
+    // console.log(filteredArticles)
+
+    const clearSearch = () => {
+        setSearch('')
+    }
 
     
     const breakPoints = {
@@ -60,12 +70,33 @@ function Blog() {
                 <Typography variant="h4" className="blog-title">
                     ARTICLES
                 </Typography>
+
+                <Fade top>
+                    <form className="blog-search">
+                        <TextField 
+                            value={search} 
+                            onChange={(e) => setSearch(e.target.value)} 
+                            label="Search in articles" 
+                            variant="outlined" 
+                            color="secondary" 
+                            className="searchInput"
+                            InputProps={{
+                                endAdornment: <>
+                                    <InputAdornment position="end">
+                                        {search && <CloseIcon onClick={clearSearch} className="searchClose spin"/>}
+                                    </InputAdornment>
+                                </>
+                            }}
+                        />
+                    </form>
+                </Fade>
+
                 <Masonry
                     breakpointCols={breakPoints}
                     className="my-masonry-grid"
                     columnClassName="my-masonry-grid_column">
                 {
-                    articles.slice(0).reverse().map(article => (
+                    filteredArticles.slice(0).reverse().map(article => (
                         <Blogcard 
                             loading={loading}
                             url={article.url}
