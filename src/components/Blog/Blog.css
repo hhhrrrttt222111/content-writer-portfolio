@@ -29,6 +29,7 @@
 }
 
 
+
 .blogs-container{
     padding-top: 0.75rem;
 } 
@@ -146,6 +147,21 @@ a {
     animation: spin .4s linear;
   }
 
+
+  .shadows {
+    text-transform: uppercase;
+    text-shadow: -7px 7px 11px #211E27;
+    letter-spacing: -0.05em;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    transition: all 0.25s ease-out;
+  }
+  
+  .shadows:hover {
+    text-shadow: -2px 6px 15px #211E27;
+  }
 
 @media (min-width: 992px) and (max-width: 1380px) {
     .searchInput {

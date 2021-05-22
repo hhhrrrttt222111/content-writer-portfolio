@@ -38,7 +38,7 @@ function Education() {
 
                 </div>
             </div>
-            <img src={eduImg} alt="" />
+            <img src={eduImg} alt="Anjali Rajendran" />
         </div>
     )
 }

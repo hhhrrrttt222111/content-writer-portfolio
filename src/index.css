@@ -37,3 +37,11 @@ body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(var(--thumbBG), var(--gradBG));
   /* background-color: var(--thumbBG) ; */
 }
+
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}

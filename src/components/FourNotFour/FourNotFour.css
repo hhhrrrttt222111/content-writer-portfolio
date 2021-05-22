@@ -42,7 +42,7 @@
 
 
 .fournotfour-image{
-    width: 480px;    
+    width: 440px;    
     pointer-events: none;
 }
 
@@ -112,7 +112,7 @@
 
 @media screen and (max-width: 600px) {
     .fournotfour-image{
-        width: 380px;    
+        width: 350px;    
     }
     
     .fournotfour > h1 {
@@ -126,7 +126,7 @@
 
 @media screen and (max-width: 400px) {
     .fournotfour-image{
-        width: 320px;    
+        width: 300px;    
     }
     .fournotfour > a > button, .fournotfour > a > button:hover {
         font-size: 0.75rem;
@@ -142,7 +142,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 
   480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
     .fournotfour-image{
-        width: 320px;    
+        width: 300px;    
     }
 
     .fournotfour > a > button, .fournotfour > a > button:hover {

@@ -47,11 +47,20 @@
     line-height: 1.8;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    text-align: justify;
 }
 
+.hp-font {
+    font-family: 'HarryP-MVZ6w';
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    opacity: 0.9;
+    white-space: nowrap;
+}
 
 .aboutBody > img {
-    width: 400px;
+    width: 385px;
     margin-left: 2rem;
     margin-top: 5rem;
     pointer-events: none;

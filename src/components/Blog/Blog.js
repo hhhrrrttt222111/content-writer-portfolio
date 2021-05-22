@@ -62,8 +62,8 @@ function Blog() {
     return (
         <div className="blog">
             <Box className="box-container">
-                <Box className = "box-title">
-                    BLOG
+                <Box className="box-title shadows">
+                    <span>B</span><span>L</span><span>O</span><span>G</span>
                 </Box>
             </Box>
             <Container maxWidth="lg" className="blogs-container">

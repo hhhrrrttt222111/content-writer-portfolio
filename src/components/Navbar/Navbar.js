@@ -9,6 +9,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import './Navbar.css'
 
 import navImg from '../../assets/png/navImg.png'
+import files from '../../assets/svg/files.svg'
 
 function Navbar({ home }) {
 
@@ -35,7 +36,14 @@ function Navbar({ home }) {
         },
         closebtnIcon: {
             fontSize: '1.85rem',
-            cursor: 'pointer'
+            cursor: 'pointer',
+            color: '#1a001a'
+        },
+        drawerItem: {
+            color: '#1a001a',
+            fontSize: '1.3rem',
+            fontWeight: 700,
+            fontFamily: "'Architects Daughter', cursive"
         }
     });
 
@@ -69,7 +77,7 @@ function Navbar({ home }) {
                     onClick={handleDrawerOpen}
                     className="menuDrawerIcon"
                 >
-                    <MenuIcon style={{fontSize: '2.1rem', color: 'black', background: '#ffb3ff', borderRadius: '100%', padding: '0.45rem'}}/>
+                    <MenuIcon style={{fontSize: '2.1rem', color: '#1a001a', background: '#ffb3ff', borderRadius: '100%', padding: '0.45rem'}}/>
                 </IconButton>
 
 
@@ -85,12 +93,14 @@ function Navbar({ home }) {
                     <div className="div-closebtn">
                         <CloseIcon onClick={handleDrawerClose} className={classes.closebtnIcon}/>
                     </div><br/>
+
+                    <img src={files} alt="Anjali Rajendran" className="mob-snippet-img"/>
                     <div onClick={handleDrawerClose}>
                         <List>
                             <NavLink to="/" className="drawerLinks" smooth={true} spy="true" duration={2000}>
                                 <ListItem className={classes.drawerItem}>
-                                    <ListItemText>
-                                    HOME
+                                    <ListItemText >
+                                        <span className={classes.drawerItem}>HOME</span>
                                     </ListItemText>
                                 </ListItem>
                             </NavLink>
@@ -98,7 +108,7 @@ function Navbar({ home }) {
                             <NavLink to="/about" className="drawerLinks" smooth={true} spy="true" duration={2000}>
                                 <ListItem className={classes.drawerItem}>
                                     <ListItemText>
-                                        ABOUT
+                                        <span className={classes.drawerItem}>ABOUT</span>
                                     </ListItemText>
                                 </ListItem>
                             </NavLink>
@@ -106,7 +116,7 @@ function Navbar({ home }) {
                             <NavLink to="/services" className="drawerLinks" smooth={true} spy="true" duration={2000}>
                                 <ListItem className={classes.drawerItem}>
                                     <ListItemText>
-                                        SERVICES
+                                        <span className={classes.drawerItem}>SERVICES</span>
                                     </ListItemText>
                                 </ListItem>
                             </NavLink>
@@ -114,7 +124,7 @@ function Navbar({ home }) {
                             <NavLink to="/blog" className="drawerLinks" smooth={true} spy="true" duration={2000}>
                                 <ListItem className={classes.drawerItem}>
                                     <ListItemText>
-                                        BLOG
+                                        <span className={classes.drawerItem}>BLOG</span>
                                     </ListItemText>
                                 </ListItem>
                             </NavLink>
@@ -122,7 +132,7 @@ function Navbar({ home }) {
                             <NavLink to="/contact" className="drawerLinks" smooth={true} spy="true" duration={2000}>
                                 <ListItem className={classes.drawerItem}>
                                     <ListItemText>
-                                        CONTACT
+                                        <span className={classes.drawerItem}>CONTACT</span>
                                     </ListItemText>
                                 </ListItem>
                             </NavLink>
@@ -137,20 +147,24 @@ function Navbar({ home }) {
 
             <div className="navbar-pc" >
                 <NavLink to="/" >
-                    <p style={navItemStyle}>home</p>
+                    <p style={navItemStyle} className="navShadow">home</p>
                 </NavLink>
                 <NavLink to="/about" activeStyle={activeStyle}>
-                    <p style={navItemStyle}>about</p>
+                    <p style={navItemStyle} className="navShadow">about</p>
                 </NavLink>
                 <NavLink to="/services" activeStyle={activeStyle}>
-                    <p style={navItemStyle}>services</p>
+                    <p style={navItemStyle} className="navShadow">services</p>
                 </NavLink>
                 <NavLink to="/blog" activeStyle={activeStyle}>
-                    <p style={navItemStyle}>blog</p>
+                    <p style={navItemStyle} className="navShadow">blog</p>
                 </NavLink>
                 <NavLink to="/contact" activeStyle={activeStyle}>
-                    <p style={navItemStyle}>contact</p>
+                    <p style={navItemStyle} className="navShadow">contact</p>
                 </NavLink>
+            </div>
+
+            <div className="snippetContainer">
+                <img src={files} alt="Anjali Rajendran" />
             </div>
         </div>
     )

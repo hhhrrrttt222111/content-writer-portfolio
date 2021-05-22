@@ -9,6 +9,7 @@ import testimonial from '../../../assets/png/testimonial.png'
 import gear from '../../../assets/svg/gear.svg'
 
 import test1 from '../../../assets/testimonials/test1.jpeg'
+import test2 from '../../../assets/testimonials/test2.jpeg'
 
 
 const testimonials = [
@@ -21,18 +22,11 @@ const testimonials = [
     },
     {
         'id': 2,
-        'name': 'VK',
-        'title': 'HRT',
-        'text': 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia 222 ',
-        'image': 'imgSrc'
+        'name': 'Anjana Sudevan',
+        'title': 'Frontend Developer',
+        'text': 'Anjali displays a perfect blend of creativity and knowledge in her work. She knows to play with words to bring out crisp and relevant content. Her sincerity and diligence is an added feather to her cap.',
+        'image': test2
     },
-    {
-        'id': 3,
-        'name': 'ABD',
-        'title': 'HRT',
-        'text': 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia 333',
-        'image': 'imgSrc'
-    }
 ]
 
 function Testimonials() {
@@ -40,7 +34,7 @@ function Testimonials() {
 
     const [current, setCurrent] = useState(0);
 
-    const length = 3;
+    const length = testimonials.length;
 
     const nextSlide = () => {
         setCurrent(current === length - 1 ? 0 : current + 1);

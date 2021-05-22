@@ -17,15 +17,15 @@ function FourNotFour() {
          </Helmet>
          <h1>404</h1>
 
-         <img src={fournotfourImage} className="fournotfour-image" alt=""/>
+         <img src={fournotfourImage} className="fournotfour-image" alt="Anjali Rajendran 404"/>
 
          <p>Oops! Something went wrong</p>
          <Link to='/'>
             <Button variant="contained">Return Home</Button>
          </Link>
 
-         <img src={broom} alt="" className="broom" />
-         <img src={dh} alt="" className="dh rotating" />
+         <img src={broom} alt="Anjali Rajendran 404" className="broom" />
+         <img src={dh} alt="Anjali Rajendran 404" className="dh rotating" />
       </div>
       
    )

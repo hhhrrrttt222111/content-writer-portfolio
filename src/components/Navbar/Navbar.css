@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 .navbar {
     position: absolute;
     width: 100%;
@@ -5,6 +7,42 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+.snippetContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+    padding: 0.8rem;
+    border-radius: 200px 200px 0px 200px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 2px 2px 4px #11111199;
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: 0.5s;
+}
+
+.snippetContainer:hover {
+    box-shadow: 2px 2px 4px #111111dd;
+}
+
+.snippetContainer > img {
+    width: 50px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.mob-snippet-img {
+    position: absolute !important;
+    top: 14px !important;
+    right: 20px !important;
+    width: 50px;
+    pointer-events: none;
 }
 
 .navbar-pc {
@@ -22,35 +60,22 @@
 }
 
 .navbar-pc > a > p {
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 1.5px;
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
-    font-family: cursive;
+    font-family: 'Architects Daughter', cursive;
     position: relative;
     display: inline-block;
 }
 
-.navbar-pc > a > p:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: -0.55rem;
-    content: "";
-    display: block;
-    height: 3px;
-    left: 50%;
-    position: absolute;
-    background: #800080;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
 
-.navbar-pc > a > p:hover:after { 
-    width: 100%; 
-    left: 0; 
+
+  .navShadow:hover {
+    text-shadow: -2px 6px 15px #800080;
   }
-
 
 .navbar-mob {
     position: fixed;
@@ -60,14 +85,12 @@
 }
 
 .drawerLinks {
-    font-size: 21px;
-    letter-spacing: 1.5px;
-    font-weight: 600;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    color: black;
+    color: #1a001a;
     white-space: nowrap;
+    font-size: 2rem !important;
 }
 
 
@@ -78,13 +101,16 @@
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
+    .navbar-pc {
+        width: 68%;
+    }
     .navbar-pc > a {
         text-decoration: none;
     }
 }
 
 @media screen and (max-width: 992px) {
-    .navbar-pc {
+    .navbar-pc, .snippetContainer {
         display: none;
     }
     .navbar-mob {

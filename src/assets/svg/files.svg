@@ -1,0 +1,38 @@
+<svg width="177" height="180" viewBox="0 0 177 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 3">
+<g id="paper-bottom">
+<path id="bottom-color" d="M75.7966 24.8322L165.774 52.037L133.36 159.244L88.371 145.641L87.3473 131.751L86.3682 119.441L68.1813 113.942L54.7804 109.89L50.473 108.588L75.7966 24.8322Z" fill="#d780ff"/>
+<g id="Group 3">
+<rect id="Rectangle 17" x="74.2219" y="19.1324" width="100" height="5" rx="2.5" transform="rotate(16.8228 74.2219 19.1324)" fill="none"/>
+<rect id="Rectangle 21" x="158.244" y="86.7646" width="81.5793" height="5" rx="2.5" transform="rotate(106.823 158.244 86.7646)" fill="none"/>
+<path id="Rectangle 23" d="M134.37 162.814C134.07 163.805 133.023 164.366 132.032 164.066L89.1575 151.103C87.3953 150.57 86.3987 148.709 86.9315 146.947V146.947C87.1979 146.066 88.1281 145.568 89.0092 145.834L132.283 158.918C133.935 159.418 134.869 161.162 134.37 162.814V162.814Z" fill="none"/>
+<rect id="Rectangle 19" x="169.942" y="48.0737" width="30.9376" height="5" rx="2.5" transform="rotate(106.823 169.942 48.0737)" fill="none"/>
+</g>
+</g>
+<g id="paper-middle">
+<path id="middle-color" d="M37.6846 20.3499L130.973 31.8939L117.218 143.046L70.5742 137.274L67.2085 123.758L64.1549 111.793L45.2987 109.459L31.4047 107.74L26.9388 107.188L37.6846 20.3499Z" fill="#df99ff"/>
+<g id="Group 3_2">
+<rect id="Rectangle 17_2" x="35.1655" y="15" width="100" height="5" rx="2.5" transform="rotate(7.05426 35.1655 15)" fill="none"/>
+<rect id="Rectangle 18" x="40.1277" y="15.614" width="33" height="5" rx="2.5" transform="rotate(97.0543 40.1277 15.614)" fill="none"/>
+<rect id="Rectangle 21_2" x="125.029" y="103.078" width="45.6252" height="5" rx="2.5" transform="rotate(97.0543 125.029 103.078)" fill="none"/>
+<path id="Rectangle 23_2" d="M118.819 146.393C118.692 147.421 117.756 148.151 116.728 148.024L72.2757 142.523C70.4487 142.297 69.1509 140.632 69.377 138.805V138.805C69.49 137.892 70.3222 137.243 71.2357 137.356L116.102 142.908C117.815 143.12 119.031 144.68 118.819 146.393V146.393Z" fill="none"/>
+<rect id="Rectangle 19_2" x="134.409" y="27.2809" width="81" height="5" rx="2.5" transform="rotate(97.0543 134.409 27.2809)" fill="none"/>
+</g>
+</g>
+<g id="paper-top">
+<path id="top-dark-color" d="M14 128.888H50L54 140.888L58.5 152.888L33 139.388L14 128.888Z" fill="#e7b3ff"/>
+<path id="top-color" d="M12 41.8884H106V153.888H59L54 140.888L49.5 129.388H30.5H16.5H12V41.8884Z" fill="#efccff"/>
+<g id="Group 3_3">
+<rect id="Rectangle 17_3" x="8.84302" y="36.8884" width="100" height="5" rx="2.5" fill="none"/>
+<rect id="Rectangle 18_2" x="13.843" y="36.8884" width="33" height="5" rx="2.5" transform="rotate(90 13.843 36.8884)" fill="none"/>
+<rect id="Rectangle 21_3" x="108.843" y="125.888" width="33" height="5" rx="2.5" transform="rotate(90 108.843 125.888)" fill="none"/>
+<path id="Rectangle 23_3" d="M108 157.013C108 158.049 107.161 158.888 106.125 158.888L61.3333 158.888C59.4924 158.888 58 157.396 58 155.555V155.555C58 154.635 58.7462 153.888 59.6667 153.888L104.875 153.888C106.601 153.888 108 155.288 108 157.013V157.013Z" fill="none"/>
+<rect id="Rectangle 19_3" x="108.843" y="36.8884" width="81" height="5" rx="2.5" transform="rotate(90 108.843 36.8884)" fill="none"/>
+<rect id="Rectangle 22" x="13.843" y="76.8884" width="54" height="5" rx="2.5" transform="rotate(90 13.843 76.8884)" fill="none"/>
+<rect id="Rectangle 26" x="10.4341" y="125.419" width="60.5362" height="5" rx="2.5" transform="rotate(29.1322 10.4341 125.419)" fill="none"/>
+<path id="Rectangle 27" d="M9 128.388C9 127.008 10.1193 125.888 11.5 125.888H48C50.7614 125.888 53 128.127 53 130.888V130.888H11.5C10.1193 130.888 9 129.769 9 128.388V128.388Z" fill="none"/>
+<rect id="Rectangle 28" x="52.1412" y="127.351" width="31.9792" height="5" rx="2.5" transform="rotate(69.4637 52.1412 127.351)" fill="none"/>
+</g>
+</g>
+</g>
+</svg>
