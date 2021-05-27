@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 
 import './CardThree.css'
 
-import img3 from '../../../assets/img3.jpg'
+import img3 from '../../../assets/img3.jpeg'
 
 function CardThree() {
     return (

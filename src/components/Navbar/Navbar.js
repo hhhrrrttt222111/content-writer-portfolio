@@ -11,7 +11,7 @@ import './Navbar.css'
 import navImg from '../../assets/png/navImg.png'
 import files from '../../assets/svg/files.svg'
 
-function Navbar({ home }) {
+function Navbar({ home, blog }) {
 
     const [open, setOpen] = useState(false);
 

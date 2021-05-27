@@ -22,7 +22,7 @@ function Home() {
                         <Loader />
                     </div>
                 </> : <>
-                    <Navbar home={true}/>
+                    <Navbar home={true} blog={false}/>
                     <Landing />
                     <CardOne />
                     <CardTwo />
