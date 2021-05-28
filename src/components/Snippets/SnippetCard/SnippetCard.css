@@ -39,6 +39,15 @@
 
 .snippetCard {
     margin: 1rem !important;
+    height: 100%;
+}
+
+.snipCardContainer {
+    height: 100%;
+}
+
+.snipCardContent {
+    height: 100%;
 }
 
 .snipCardContent > p {
@@ -69,10 +78,10 @@
     }
     
     .snipCardContent > p {
-        font-size: 0.87rem;
+        font-size: 1.07rem;
     }
     .MuiDialog-paper {
-        margin: 12px !important;
+        margin: 28px !important;
     }
 }
   

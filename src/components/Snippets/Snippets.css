@@ -67,14 +67,14 @@
 @media screen and (max-width: 800px) {
     .MuiDialog-paperWidthSm {
         max-width: 400px !important;
-        height: 75vh !important;
+        height: 65vh !important;
     }
 }
 
 @media screen and (max-width: 600px) {
     .MuiDialog-paperWidthSm {
         max-width: 400px !important;
-        height: 85vh !important;
+        height: 65vh !important;
     }
 }
 
@@ -86,7 +86,7 @@
     }
     .MuiDialog-paperWidthSm {
         max-width: 400px !important;
-        height: 95vh !important;
+        height: 70vh !important;
     }
 }
   
