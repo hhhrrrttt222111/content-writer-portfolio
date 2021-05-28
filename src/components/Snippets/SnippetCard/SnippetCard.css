@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
+.slick-prev, .slick-next {
+    background-color: #ffb3ff !important;
+    color: #1a001a !important;
+    display: block;
+    top: 95% !important;
+    width: 32px;
+    height: 32px;
+    padding: 0.2rem;
+    border-radius: 100%;
+}
+
+.slick-next {
+    right: 0px;
+}
+.slick-prev {
+    left: 0px;
+}
+
+.slick-slider {
+    height: 100% !important;
+}
+
+.slick-dots {
+    bottom: -10px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .95 !important;
+    color: #1a001a !important;
+}
+
+.slick-dots li button:before {
+    opacity: .55 !important;
+    color: #1a001a !important;
+}
+
+
+.snippetCard {
+    margin: 1rem !important;
+}
+
+.snipCardContent > p {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 125%;
+    color: #1a001a;
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 600px) {
+    .snippetCard {
+        margin: 0.5rem !important;
+    }
+    
+    .snipCardContent > p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .snippetCard {
+        margin: 0.5rem !important;
+    }
+    
+    .snipCardContent > p {
+        font-size: 0.87rem;
+    }
+    .MuiDialog-paper {
+        margin: 12px !important;
+    }
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    .snippetCard {
+        margin: 0.2rem !important;
+    }
+    
+    .snipCardContent > p {
+        font-size: 0.87rem;
+    }
+    .MuiDialog-paper {
+        margin: 12px !important;
+    }
+}

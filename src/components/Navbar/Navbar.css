@@ -9,41 +9,6 @@
     justify-content: flex-end;
 }
 
-.snippetContainer {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    left: 10px;
-    top: 10px;
-    padding: 0.8rem;
-    border-radius: 200px 200px 0px 200px;
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 2px 2px 4px #11111199;
-    backdrop-filter: blur( 4.0px );
-    -webkit-backdrop-filter: blur( 4.0px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    transition: 0.5s;
-}
-
-.snippetContainer:hover {
-    box-shadow: 2px 2px 4px #111111dd;
-}
-
-.snippetContainer > img {
-    width: 50px;
-    cursor: pointer;
-    pointer-events: none;
-}
-
-.mob-snippet-img {
-    position: absolute !important;
-    top: 14px !important;
-    right: 20px !important;
-    width: 50px;
-    pointer-events: none;
-}
 
 .navbar-pc {
     margin: 2rem;

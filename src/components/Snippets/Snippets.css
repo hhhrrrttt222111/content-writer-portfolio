@@ -1,0 +1,104 @@
+.mob-snippet-img {
+    position: absolute !important;
+    top: 14px !important;
+    right: 20px !important;
+    width: 50px;
+    z-index: 999;
+}
+
+.snippetContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    left: 10px; 
+    top: 10px;
+    padding: 0.8rem;
+    border-radius: 200px 200px 0px 200px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 2px 2px 4px #11111199;
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: 0.5s;
+}
+
+.snippetContainer:hover {
+    box-shadow: 2px 2px 4px #111111dd;
+}
+
+.snippetContainer > span > img {
+    width: 50px;
+    cursor: pointer;
+    pointer-events: none;
+    z-index: 999;
+}
+
+
+.MuiDialog-paperWidthSm {
+    max-width: 400px !important;
+    height: 500px !important;
+    overflow: hidden !important;
+    background: rgb(255,117,178) !important;
+    background: linear-gradient(0deg, rgba(255,117,178,1) 0%, rgba(255,211,254,1) 100%) !important;
+    border-radius: 45px !important;
+}
+
+.MuiDialogContent-root::-webkit-scrollbar {
+    display: none !important;
+  }
+
+
+.MuiDialogContent-root {
+    -ms-overflow-style: none !important; 
+    scrollbar-width: none !important; 
+    overflow-y: hidden !important;
+  }
+
+
+@media screen and (max-width: 992px) {
+    .snippetContainer {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .MuiDialog-paperWidthSm {
+        max-width: 400px !important;
+        height: 75vh !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .MuiDialog-paperWidthSm {
+        max-width: 400px !important;
+        height: 85vh !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mob-snippet-img {
+        top: 16px !important;
+        right: 15% !important;
+        width: 45px;
+    }
+    .MuiDialog-paperWidthSm {
+        max-width: 400px !important;
+        height: 95vh !important;
+    }
+}
+  
+@media only screen and (min-device-width: 320px) and (max-device-width: 
+  480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+    .mob-snippet-img {
+        top: 16px !important;
+        right: 15% !important;
+        width: 45px;
+    }
+    .MuiDialog-paperWidthSm {
+        max-width: 400px !important;
+        height: 95vh !important;
+    }
+}

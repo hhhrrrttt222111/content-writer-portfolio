@@ -38,7 +38,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-.landing_text > button, .landing_text > button:hover {
+.landing_text > a > button, .landing_text > a > button:hover {
     margin-top: 5rem;
     color: #ffe6ff;
     text-transform: inherit;
@@ -144,7 +144,7 @@
         font-size: 1.95rem;
         margin: 1rem;
     }
-    .landing_text > button, .landing_text > button:hover {
+    .landing_text > a > button, .landing_text > a > button:hover {
         margin-top: 2.5rem;
         color: #ffe6ff;
         text-transform: inherit;
@@ -156,7 +156,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .landing_text > button, .landing_text > button:hover {
+    .landing_text > a > button, .landing_text > a > button:hover {
         margin-top: 1.5rem;
         color: #ffe6ff;
         text-transform: inherit;

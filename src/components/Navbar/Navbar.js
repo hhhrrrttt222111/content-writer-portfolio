@@ -9,7 +9,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import './Navbar.css'
 
 import navImg from '../../assets/png/navImg.png'
-import files from '../../assets/svg/files.svg'
+import Snippets from '../Snippets/Snippets';
 
 function Navbar({ home, blog }) {
 
@@ -89,12 +89,14 @@ function Navbar({ home, blog }) {
                     open={open}
                     classes={{ paper: classes.MuiDrawer }}
                     className="drawer"
+                    disableScrollLock={true}
                 >
                     <div className="div-closebtn">
                         <CloseIcon onClick={handleDrawerClose} className={classes.closebtnIcon}/>
                     </div><br/>
 
-                    <img src={files} alt="Anjali Rajendran" className="mob-snippet-img"/>
+                    <Snippets mobile={true} />
+                    
                     <div onClick={handleDrawerClose}>
                         <List>
                             <NavLink to="/" className="drawerLinks" smooth={true} spy="true" duration={2000}>
@@ -163,9 +165,7 @@ function Navbar({ home, blog }) {
                 </NavLink>
             </div>
 
-            <div className="snippetContainer">
-                <img src={files} alt="Anjali Rajendran" />
-            </div>
+                <Snippets mobile={false} />
         </div>
     )
 }
