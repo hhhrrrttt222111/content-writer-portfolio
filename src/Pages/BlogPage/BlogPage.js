@@ -8,7 +8,7 @@ function BlogPage() {
             <Helmet>
                 <title>Blog</title>
             </Helmet>
-            <Navbar  home={false} blog={true}/>
+            <Navbar home={true} blog={false}/>
             <Blog />
         </>
     )

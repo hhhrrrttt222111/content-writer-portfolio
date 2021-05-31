@@ -43,8 +43,8 @@ function Snippets({ mobile }) {
 
 
     return (
-        <div className={!mobile ? 'snippetContainer' : ''}>
-            <span onClick={handleClickOpen}>
+        <div >
+            <span onClick={handleClickOpen} className={!mobile ? 'snippetContainer' : ''}>
                 <img src={files} alt="Anjali Rajendran" className={mobile ? 'mob-snippet-img' : ''} />
             </span>
 
