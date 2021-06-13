@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from '@material-ui/core'
 import './Landing.css'
 
-import img1 from '../../../assets/img1.jpeg'
+import img4 from '../../../assets/img4.jpeg'
 import anjaliPdf from '../../../assets/anjaliPdf.pdf'
 
 function Landing() {
@@ -21,7 +21,9 @@ function Landing() {
                     </a>
                 </div>
                 <div className="landing_img">
-                    <img src={img1} alt="Anjali Rajendran"/>
+                    <div className="frame">
+                    <img src={img4} alt="Anjali Rajendran"/>
+                    </div>
                 </div>
             </div>
 
