@@ -2,11 +2,11 @@
     height: 100vh;
     overflow: hidden;
     /*background-image: url('../../../assets/bgtemp.png');*/
-    background-position: center;
+    /* background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-color: black;
+    background-size: cover; */
+    background-color: #99bbff;
     position: relative;
     user-select: none;
     display: flex;
@@ -43,10 +43,10 @@
 
 .landing_text > a > button, .landing_text > a > button:hover {
     margin-top: 5rem;
-    color: #ffe6ff;
+    color: black;
     text-transform: inherit;
     padding: 1rem 2rem;
-    background-color: #800080;
+    background-color: #a3a3c2;
     border-radius: 34px;
     box-shadow: 4px 8px 34px -5px rgb(51 0 51 / 79%);
     -webkit-box-shadow: 4px 8px 34px -5px rgb(51 0 51 / 79%);
@@ -55,25 +55,25 @@
 
 
 .landing_img {
-    background: pink;
+    
     margin-bottom: 60px;
-    flex: 0.3;
+    flex: 0.4;
     border-radius: 10%;
 }
 
 .frame {
    
-	background-color:#ddc;
-  border:solid 2vmin #eee;
-  border-bottom-color:#fff;
-  border-left-color:#eee;
-  border-radius:2px;
-  border-right-color:#eee;
-  border-top-color:#ddd;
+	background-color:#d9d9f2;
+  border:solid 3.1vmin #eee;
+  border-bottom-color: #8080ff;
+  border-left-color: #8080ff;
+  border-radius:12px;
+  border-right-color: #8080ff;
+  border-top-color: #8080ff;
   box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
   box-sizing:border-box;
   display:inline-block;
-  padding:1vmin;
+  padding: 1.1rem;
   position:relative;
   text-align:center;
 
@@ -87,7 +87,7 @@
     filter: grayscale(10%);
     opacity: .9;
     pointer-events: none;
-    width: 100%;
+    /* width: 100%; */
     border-radius: 10%;
 }
 
@@ -136,6 +136,12 @@
         font-size: 2.2rem;
         width: 90%;
     }
+    .landing_text{
+        flex: 0.5;
+    }
+    .landing_img{
+        flex: 0.5;
+    }
     
 }
 
@@ -152,6 +158,10 @@
     .landing_text {
         margin: 2rem;
         
+    }
+    .landing_text > a > button, .landing_text > a > button:hover{
+        background-color: #ffb3bf;
+        color: #000000 !important;
     }
 }
 
