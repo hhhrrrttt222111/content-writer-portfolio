@@ -1,7 +1,7 @@
 .landing {
     height: 100vh;
     overflow: hidden;
-    background-image: url('../../../assets/bgtemp.png');
+    /*background-image: url('../../../assets/bgtemp.png');*/
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -16,11 +16,12 @@
 
 .landing_container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     padding: 3rem;
     padding-top: 7rem;
     padding-bottom: 0;
+    
 }
 
 .landing_text {
@@ -28,14 +29,16 @@
     margin: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+    
 }
 
 .landing_text > h1 {
     color: #ffe6ff;
     font-size: 2.5rem;
     font-family: 'Lato', sans-serif;
+    width: 85%;
 }
 
 .landing_text > a > button, .landing_text > a > button:hover {
@@ -53,12 +56,31 @@
 
 .landing_img {
     background: pink;
-    height: 500px;
-    flex: 0.4;
+    margin-bottom: 60px;
+    flex: 0.3;
     border-radius: 10%;
 }
 
-.landing_img > img {
+.frame {
+   
+	background-color:#ddc;
+  border:solid 2vmin #eee;
+  border-bottom-color:#fff;
+  border-left-color:#eee;
+  border-radius:2px;
+  border-right-color:#eee;
+  border-top-color:#ddd;
+  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+  box-sizing:border-box;
+  display:inline-block;
+  padding:1vmin;
+  position:relative;
+  text-align:center;
+
+}
+
+
+.frame > img {
     height: 500px;
     overflow: hidden;
     -webkit-filter: grayscale(10%);
@@ -68,6 +90,8 @@
     width: 100%;
     border-radius: 10%;
 }
+
+
 
 .fadeIn {
     -webkit-animation-duration: 3s;
@@ -110,13 +134,16 @@
     }
     .landing_text > h1 {
         font-size: 2.2rem;
+        width: 90%;
     }
+    
 }
 
 
 @media screen and (max-width: 992px) {
     .landing_text > h1 {
         font-size: 2.15rem;
+        width: 100%;
     }
     .landing_container {
         padding: 2rem;
@@ -124,12 +151,13 @@
     }
     .landing_text {
         margin: 2rem;
+        
     }
 }
 
 @media screen and (max-width: 800px) {
     .landing {
-        background-image: url('../../../assets/img1.jpeg');
+        background-image: url('../../../assets/img4.jpeg');
         align-items: flex-end;
     }
     .landing_container {
