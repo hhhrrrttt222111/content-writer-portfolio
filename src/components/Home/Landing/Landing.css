@@ -44,9 +44,10 @@
 .landing_text > a > button, .landing_text > a > button:hover {
     margin-top: 5rem;
     color: black;
+    font-weight: 600;
     text-transform: inherit;
     padding: 1rem 2rem;
-    background-color: #a3a3c2;
+    background-color: #40e0d0;
     border-radius: 34px;
     box-shadow: 4px 8px 34px -5px rgb(51 0 51 / 79%);
     -webkit-box-shadow: 4px 8px 34px -5px rgb(51 0 51 / 79%);
@@ -157,11 +158,11 @@
     }
     .landing_text {
         margin: 2rem;
-        
+        margin-left: 0;
     }
     .landing_text > a > button, .landing_text > a > button:hover{
-        background-color: #ffb3bf;
         color: #000000 !important;
+        background-color: #ffe6ff;
     }
 }
 
@@ -178,11 +179,11 @@
     .landing_text {
         margin: 0.5rem;
         flex: 1;
-        margin-left: 0px;
     }
     .landing_text > h1 {
         font-size: 1.95rem;
         margin: 1rem;
+        margin-left: 0; 
     }
     .landing_text > a > button, .landing_text > a > button:hover {
         margin-top: 2.5rem;
@@ -205,6 +206,7 @@
     .landing_text > h1 {
         font-size: 1.45rem;
         margin: 1.2rem;
+        margin-left: 0;
     }
 }
 
@@ -212,6 +214,7 @@
     .landing_text > h1 {
         font-size: 1.25rem;
         margin: 0.2rem;
+        margin-left: 0;
     }
 }
   
