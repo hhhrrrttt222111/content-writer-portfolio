@@ -6,7 +6,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; */
-    background-color: #99bbff;
+    background-color: #40e0d0;
     position: relative;
     user-select: none;
     display: flex;
@@ -65,11 +65,11 @@
    
 	background-color:#d9d9f2;
   border:solid 3.1vmin #eee;
-  border-bottom-color: #8080ff;
-  border-left-color: #8080ff;
+  border-bottom-color: #20c5b5;
+  border-left-color: #20c5b5;
   border-radius:12px;
-  border-right-color: #8080ff;
-  border-top-color: #8080ff;
+  border-right-color: #20c5b5;
+  border-top-color: #20c5b5;
   box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
   box-sizing:border-box;
   display:inline-block;
@@ -149,7 +149,7 @@
 @media screen and (max-width: 992px) {
     .landing_text > h1 {
         font-size: 2.15rem;
-        width: 100%;
+        width: 90%;
     }
     .landing_container {
         padding: 2rem;
@@ -169,6 +169,7 @@
     .landing {
         background-image: url('../../../assets/img4.jpeg');
         align-items: flex-end;
+        background-size: cover;
     }
     .landing_container {
         padding: 1rem;
@@ -177,6 +178,7 @@
     .landing_text {
         margin: 0.5rem;
         flex: 1;
+        margin-left: 0px;
     }
     .landing_text > h1 {
         font-size: 1.95rem;
