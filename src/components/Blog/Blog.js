@@ -26,6 +26,14 @@ const articles = [
         'img': 'https://lostinnoir.com/wp-content/uploads/2020/08/jbm2-300x164.png',
         'date': 'August 6, 2020',
         'url': 'https://lostinnoir.com/2020/08/06/jab-we-met-a-rewatch-review/'
+    },  
+    {
+        'id': 3,
+        'title': 'Indian Media - Has It Lost All Credibility?',
+        'desc': 'The media are not the holders of power, but they constitute, by and large, a space where power is decided. ',
+        'img': 'https://miro.medium.com/max/2040/1*RKnVUtHZyVRc74z5MLnFfg.png',
+        'date': 'July 27, 2021',
+        'url': 'https://medium.com/munners-daily/indian-media-has-it-lost-all-credibility-5ce58511e7ad'
     },   
 
 ]
